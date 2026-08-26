@@ -8,6 +8,7 @@
   </PropertyGroup>
   <ItemGroup>
     <InternalsVisibleTo Include="CutTheRope-DX" />
+    <InternalsVisibleTo Include="CutTheRopeDX-GoingUP" />
     <InternalsVisibleTo Include="CutTheRopeDX.Tests" />
     <InternalsVisibleTo Include="CutTheRopeDX.Browser" />
   </ItemGroup>
