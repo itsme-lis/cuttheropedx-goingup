@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" levelName="Sweet-syphus Much? by Agent Zero" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <tutorialText x="80" y="207" locale="en" text="Sweet-syphus Much? - By Agent Zero" width="160" />
+    <candy x="80" y="430" candyNumber="0" />
+    <grab x="60" y="360" length="50" wheel="false" gun="false" radius="-1" moveLength="100" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+    <ants x="168" y="435" path="-2,1,78,-30,106,-128,61,-217,-27,-239,-143,-244" moveSpeed="167" />
+    <target x="160" y="30" />
+    <star x="-10" y="210" timeout="-1" />
+    <grab x="220" y="160" length="50" wheel="false" gun="false" radius="50" moveLength="240" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+    <star x="310" y="200" timeout="-1" />
+    <pipe x="10" y="280" angle="0" />
+    <star x="290" y="50" timeout="-1" />
+    <grab x="260" y="22" length="50" wheel="false" gun="false" radius="50" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="true" kicked="false" />
+    <rotatedCircle x="290" y="20" size="50" handleAngle="90" oneHandle="false" />
+  </layer>
+</map>

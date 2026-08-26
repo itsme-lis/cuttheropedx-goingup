@@ -1,0 +1,66 @@
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="320" height="960" levelName="The (Almost) Everything Tower by blumburt" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="9" />
+    </layer>
+ 
+    <layer name="Objects">
+        <star x="61" y="275" timeout="-1" />
+        <spike4 x="532" y="82" angle="45" size="3" toggled="1" />
+        <spike4 x="-171" y="524" angle="0" size="4" toggled="2" />
+        <tutorialText x="-251" y="535" locale="en" text="The (almost) everything tower" width="160" />
+        <spike2 x="37" y="691" angle="180" size="4" />
+        <spike2 x="136" y="467" angle="90" size="1" />
+        <star x="197" y="613" timeout="-1" />
+        <steamTube x="197" y="636" angle="0" />
+        <spike2 x="364" y="691" angle="180" size="2" />
+        <bubble x="476" y="926" />
+        <grab x="293" y="817" length="50" wheel="false" gun="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <electro x="160" y="879" initialDelay="" offTime="2" onTime="2" angle="90" size="5" />
+        <spike2 x="160" y="747" angle="90" size="2" />
+        <spike2 x="219" y="691" angle="180" size="4" />
+        <pump x="-84" y="733" angle="45" />
+        <spike2 x="-146" y="691" angle="180" size="4" />
+        <pump x="-193" y="733" angle="45" />
+        <ghost x="393" y="275" bouncer="false" bubble="true" grab="true" radius="82" angle="90" />
+        <spike2 x="219" y="419" angle="180" size="2" />
+        <spike2 x="328" y="419" angle="180" size="2" />
+        <grab x="90" y="836" length="50" wheel="false" gun="false" radius="50" moveLength="128" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <sock x="-133" y="480" group="0" angle="90" />
+        <sock x="476" y="419" group="0" angle="-90" />
+        <rocket x="328" y="374" angle="-135" impulse="25" impulseFactor="0.6" time="-1" isRotatable="false" />
+        <spike2 x="136" y="613" angle="90" size="4" />
+        <ghost x="-42" y="636" bouncer="true" bubble="true" grab="false" radius="50" angle="90" />
+        <grab x="393" y="133" length="50" wheel="false" gun="true" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <spike2 x="219" y="213" angle="90" size="4" />
+        <ants x="393" y="45" path="-84,32,-174,0,-257,20" moveSpeed="50" />
+        <target x="136" y="133" />
+        <bubble x="-146" y="857" />
+        <spike4 x="13" y="524" angle="180" size="4" toggled="1" />
+        <pipe x="61" y="636" angle="90" />
+        <gap x="61" y="480" angle="0" activeTime="1" radius="50" index="1" />
+        <lantern x="61" y="419" candyCaptured="false" />
+        <bouncer1 x="219" y="568" angle="-154" size="2" />
+        <sock x="61" y="253" group="1" angle="90" />
+        <sock x="147" y="374" group="1" angle="0" />
+        <spike4 x="160" y="317" angle="0" size="3" toggled="2" />
+        <grab x="-133" y="133" length="50" wheel="true" gun="false" radius="80" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <tutorialText x="-226" y="592" locale="en" text="By blumburt" width="160" />
+        <spike2 x="-193" y="373" angle="180" size="3" />
+        <grab x="-104" y="935" length="50" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="true" kicked="false" />
+        <grab x="-193" y="935" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="true" part="L" hidePath="false" kickable="false" kicked="false" />
+        <candy x="-146" y="857" />
+        <hand x="-133" y="253" segmentsCount="1" segment1Angle="180" segment1Length="100" segment1Rotatable="true" />
+        <star x="-193" y="45" timeout="-1" />
+        <spike2 x="-81" y="474" angle="90" size="4" />
+        <spike2 x="-42" y="373" angle="0" size="3" />
+        <grab x="476" y="524" length="50" wheel="false" gun="false" radius="40" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <lantern x="476" y="600" candyCaptured="false" />
+        <tutorial09 x="-230" locale="en" y="636" />
+        <gap x="-230" y="185" angle="180" activeTime="1" radius="50" index="2" />
+        <transporter x="393" y="568" angle="180" direction="forward" type="manual" width="50" length="224" />
+        <rotatedCircle x="379" y="817" size="98" handleAngle="90" oneHandle="false"  />
+    </layer>
+ 
+</map>

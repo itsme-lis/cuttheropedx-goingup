@@ -1,0 +1,148 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="320" height="5300" levelName="Climbing Up by Matheus" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+    </layer>
+ 
+    <layer name="Objects">
+        <spike2 x="197" y="475" angle="0" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="116" y="561" angle="0" size="4" path="0,5000" moveSpeed="50" />
+        <sock x="160" y="5200" group="0" angle="90" />
+        <target x="160" y="5240" />
+        <sock x="246" y="294" group="0" angle="90" path="0,5000" moveSpeed="50" />
+        <spike2 x="297" y="334" angle="90" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="116" y="280" angle="180" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="35" y="341" angle="90" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="216" y="394" angle="180" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="136" y="434" angle="90" size="2" path="-20,5000" moveSpeed="50" />
+        <spike2 x="35" y="482" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="305" y="518" angle="45" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="222" y="589" angle="45" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="349" y="641" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="269" y="722" angle="180" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="168" y="618" angle="180" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="87" y="697" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="144" y="834" angle="45" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="244" y="781" angle="45" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="302" y="920" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="138" y="889" angle="180" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="46" y="916" angle="135" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="222" y="1000" angle="180" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="-25" y="988" angle="135" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="84" y="1053" angle="135" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="-82" y="1130" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="-2" y="1210" angle="0" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="109" y="1110" angle="0" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="191" y="1191" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="79" y="1289" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="252" y="1271" angle="0" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="159" y="1369" angle="0" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="284" y="1410" angle="45" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="371" y="1327" angle="45" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="430" y="1466" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="288" y="1451" angle="180" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="350" y="1548" angle="180" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="187" y="1509" angle="135" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="240" y="1576" angle="135" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="131" y="1627" angle="90" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="211" y="1626" angle="90" size="1" path="0,5000" moveSpeed="50" />
+        <spike2 x="240" y="1679" angle="45" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="269" y="1728" angle="90" size="1" path="0,5000" moveSpeed="50" />
+        <spike2 x="159" y="1717" angle="45" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="270" y="2012" angle="90" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="242" y="1950" angle="0" size="1" path="0,5000" moveSpeed="50" />
+        <spike2 x="269" y="1808" angle="90" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="240" y="1916" angle="-45" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="140" y="1810" angle="126" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="91" y="1955" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="132" y="2034" angle="0" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="172" y="2073" angle="90" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="327" y="2128" angle="45" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="385" y="2208" angle="90" size="1" path="0,5000" moveSpeed="50" />
+        <spike2 x="230" y="2172" angle="45" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="426" y="2226" angle="0" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="466" y="2315" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="447" y="2377" angle="0" size="1" path="0,5000" moveSpeed="50" />
+        <spike2 x="306" y="2378" angle="0" size="1" path="0,5000" moveSpeed="50" />
+        <spike2 x="326" y="2489" angle="0" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="287" y="2309" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="465" y="2476" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="287" y="2469" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="426" y="2598" angle="0" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="206" y="2708" angle="180" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="328" y="2710" angle="0" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="465" y="2637" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="287" y="2629" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="408" y="2780" angle="135" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="267" y="2835" angle="180" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="69" y="2764" angle="135" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="11" y="2884" angle="90" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="158" y="2862" angle="135" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="128" y="2932" angle="90" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="98" y="3003" angle="135" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="70" y="3052" angle="90" size="1" path="0,5000" moveSpeed="50" />
+        <spike2 x="-19" y="2975" angle="135" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="-46" y="3086" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="110" y="3072" angle="0" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="35" y="3166" angle="0" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="194" y="3116" angle="45" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="278" y="3158" angle="0" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="319" y="3199" angle="90" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="115" y="3227" angle="90" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="156" y="3287" angle="0" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="319" y="3281" angle="90" size="3" path="0,5000" moveSpeed="50" />
+        <spike2 x="197" y="3326" angle="90" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="359" y="3342" angle="0" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="399" y="3363" angle="90" size="1" path="0,5000" moveSpeed="50" />
+        <spike2 x="272" y="3425" angle="0" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="225" y="3394" angle="45" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="398" y="3443" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="172" y="3424" angle="180" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="318" y="3522" angle="180" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="237" y="3603" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="89" y="3509" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="196" y="3684" angle="180" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="126" y="3712" angle="135" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="96" y="3785" angle="90" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="31" y="3644" angle="135" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="-28" y="3783" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="360" y="4180" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="6" y="3898" angle="45" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="126" y="3857" angle="45" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="40" y="4020" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="76" y="4145" angle="45" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="200" y="4060" angle="0" size="1" path="0,5000" moveSpeed="50" />
+        <spike2 x="160" y="3980" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="160" y="4180" angle="0" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="360" y="4100" angle="-90" size="1" path="0,5000" moveSpeed="50" />
+        <spike2 x="280" y="4060" angle="0" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="200" y="4220" angle="90" size="2" path="0,5000" moveSpeed="50" />
+        <candy x="160" y="4800" />
+        <spike2 x="139" y="4335" angle="135" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="301" y="4331" angle="135" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="-160" y="5040" angle="0" size="4" />
+        <spike2 x="160" y="5040" angle="180" size="4" />
+        <spike2 x="240" y="4600" angle="90" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="80" y="4600" angle="90" size="2" path="0,5000" moveSpeed="50" />
+        <spike2 x="240" y="4480" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="80" y="4480" angle="90" size="4" path="0,5000" moveSpeed="50" />
+        <spike2 x="560" y="5040" angle="0" size="4"/>
+        <spike2 x="480" y="5040" angle="0" size="4" />
+        <spike2 x="-240" y="5040" angle="0" size="4" />
+        <spike2 x="0" y="5040" angle="180" size="4" />
+        <spike2 x="320" y="5040" angle="0" size="4" />
+        <grab x="160" y="4740" length="0" wheel="false" gun="false" radius="-1" moveLength="640" moveVertical="false" moveOffset="320" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+<star x="160" y="5233" timeout="-1" />
+<star x="175" y="5206" timeout="-1" />
+<star x="145" y="5206" timeout="-1"/>
+    </layer>
+ 
+</map>

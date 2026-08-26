@@ -1,0 +1,159 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Drafted using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<map>
+    <layer name="settings">
+        <map width="840" height="1440" levelName="Mechanic Ocean by SwordJhon" />
+        <gameDesign ropePhysicsSpeed="1" useMobilePhysics="true" nightLevel="true" water="1200" themeBox="16" />
+    </layer>
+    <layer name="text">
+        <tutorialText x="315" y="1215" locale="en" text="Mechanic Ocean" width="160" />
+        <tutorialText x="350" y="1265" locale="en" text="by SwordJhon" width="160" />
+        <tutorialText x="195" y="1295" locale="en" text="Reach the top and feed Om Nom!" width="150" />
+        <tutorialText x="195" y="1295" locale="es" text="Please change the language to English" width="150" />
+        <tutorialText x="195" y="1295" locale="ru" text="Please change the language to English" width="150" />
+        <tutorial05   x="720" y="1362" locale="en" />
+    </layer>
+    <layer name="section_saws" >
+        <grab x="100" y="1360" length="80" radius="-1" />
+        <candy x="101" y="1260" />
+        <hand x="200" y="1120" segmentsCount="1" segment1Angle="0" segment1Length="100" segment1Rotatable="true" />
+        <spike4 x="055" y="1120" angle="225" size="4" toggled="1" />
+        <spike4 x="200" y="0975" angle="315" size="4" toggled="2" />
+        <spike4 x="345" y="1120" angle="225" size="4" toggled="1" />
+        <spike2 x="200" y="1220" angle="090" size="2" />
+        <steamTube x="300" y="1070" angle="180" />
+        <grab x="300" y="1260" radius="30" moveLength="160" />
+    </layer>
+    <layer name="section_bouncers1" >
+        <bouncer1 x="720" y="1365" angle="0" size="1" />
+        <sock x="755" y="1225" group="0" angle="180" />
+        <hand x="590" y="1225" segmentsCount="1" segment1Angle="0" segment1Length="130" segment1Rotatable="false" />
+        <hand x="590" y="1225" segmentsCount="1" segment1Angle="-90" segment1Length="185" segment1Rotatable="false" />
+        <star x="675" y="1180" timeout="-1" />
+        <bouncer1 x="460" y="1140" angle="160" size="1" />
+        <bouncer1 x="520" y="1120" angle="160" size="1" />
+        <bouncer1 x="660" y="1120" angle="-160" size="1" />
+        <bouncer1 x="720" y="1140" angle="-160" size="1" />
+        <electro x="590" y="1100" initialDelay="0" offTime="1" onTime="1" angle="0" size="5" />
+        <pipe x="590" y="940" angle="180" />
+        <load x="500" y="940" />
+        <load x="680" y="940" />
+        <transporter x="420" y="1000" angle="90" direction="forward" type="manual" width="50" length="300" />
+        <transporter x="760" y="1000" angle="90" direction="forward" type="manual" width="50" length="300" />
+        <bouncer1 x="760" y="1015" angle="0" size="1" />
+        <bouncer1 x="420" y="1015" angle="0" size="1" />
+        <bouncer1 x="760" y="975" angle="0" size="1" />
+        <bouncer1 x="420" y="975" angle="0" size="1" />
+        <spike3 x="800" y="760" angle="0" size="3" path="0,0" moveSpeed="0" rotateSpeed="50" />
+        <spike3 x="720" y="860" angle="0" size="3" path="0,0" moveSpeed="0" rotateSpeed="-50" />
+        <spike1 x="500" y="760" angle="0" size="1" path="-160,0" moveSpeed="50" />
+        <spike1 x="340" y="860" angle="0" size="1" path="160,0" moveSpeed="50" />
+        <grab x="420" y="650" radius="20" />
+        <pipe x="420" y="560" angle="180" />
+        <sock x="760" y="670" group="0" angle="90" />
+    </layer>
+    <layer name="section_bouncers2" >
+        <bouncer2 x="250" y="485" angle="180" size="2" />
+        <transporter x="250" y="460" angle="270" type="manual" width="40" length="200" />
+        <transporter x="030" y="620" angle="270" type="manual" width="40" length="240" />
+        <transporter x="350" y="700" angle="180" type="manual" width="50" length="140" />
+        <transporter x="270" y="640" angle="180" type="manual" width="40" length="260" />
+        <pump x="310" y="700" angle="180" />
+        <pump x="000" y="930" angle="325" />
+        <spike1 x="180" y="580" angle="030" size="1" path="0,120,-80,120,-80,0" moveSpeed="50" />
+        <spike1 x="180" y="580" angle="090" size="1" path="0,120,-80,120,-80,0" moveSpeed="50" />
+        <spike1 x="180" y="580" angle="150" size="1" path="0,120,-80,120,-80,0" moveSpeed="50" />
+        <spike1 x="100" y="800" angle="030" size="1" path="0,120" moveSpeed="50" />
+        <spike1 x="100" y="800" angle="090" size="1" path="0,120" moveSpeed="50" />
+        <spike1 x="100" y="800" angle="150" size="1" path="0,120" moveSpeed="50" />
+        <sock x="180" y="800" group="1" angle="90" />
+    </layer>
+    <layer name="section_discs" >
+        <sock x="530" y="650" group="1" angle="0" />
+        <hand x="680" y="650" segmentsCount="1" segment1Angle="180" segment1Length="115" segment1Rotatable="true" />
+        <grab x="680" y="420" radius="30" />
+        <load x="780" y="280" />
+        <rotatedCircle x="760" y="320" size="060" handleAngle="090" oneHandle="true" />
+        <rotatedCircle x="620" y="360" size="100" handleAngle="270" oneHandle="true" />
+        <rotatedCircle x="470" y="390" size="070" handleAngle="270" oneHandle="true" />
+        <rotatedCircle x="370" y="330" size="060" handleAngle="270" oneHandle="true" />
+        <rotatedCircle x="250" y="330" size="075" handleAngle="270" oneHandle="true" />
+        <steamTube x="450" y="465" angle="0" />
+        <steamTube x="490" y="465" angle="0" />
+        <star x="470" y="440" timeout="-1" />
+        <sock x="250" y="250" group="2" angle="90" />
+    </layer>
+    <layer name="section_end" >
+        <sock x="120" y="440" group="2" angle="-90" />
+        <bubble x="120" y="400" />
+        <grab x="100" y="247" radius="30" />
+        <star x="420" y="120" timeout="-1" />
+        <grab x="680" y="180" radius="25" path="-560,0" moveSpeed="50" />
+        <target x="680" y="120" />
+        <hand x="-60" y="325" segmentsCount="1" segment1Angle="10" segment1Length="100" segment1Rotatable="false" />
+        <rocket x="40" y="340" angle="-80" impulse="25" impulseFactor="0.6" time="-1" isRotatable="false" />
+    </layer>
+    <layer name="objects">
+        <spike1 x="310" y="890" angle="0" size="1" />
+        <spike4 x="800" y="245" angle="2" size="4" />
+        <spike2 x="655" y="1470" angle="81" size="2" />
+        <spike3 x="575" y="1420" angle="180" size="3" />
+        <spike3 x="280" y="820" angle="90" size="3" />
+        <spike4 x="0" y="242" angle="3" size="4" />
+        <spike1 x="305" y="245" angle="-2" size="1" />
+        <spike1 x="195" y="245" angle="5" size="1" />
+        <spike4 x="430" y="245" angle="1" size="4" />
+        <spike2 x="465" y="1380" angle="-135" size="2" />
+        <spike2 x="380" y="1360" angle="160" size="2" />
+        <spike2 x="280" y="1380" angle="180" size="2" />
+        <spike2 x="200" y="1420" angle="120" size="2" />
+        <spike2 x="760" y="570" angle="135" size="2" />
+        <spike3 x="540" y="480" angle="180" size="3" />
+        <spike3 x="275" y="420" angle="7.5" size="3" />
+        <spike1 x="365" y="455" angle="45" size="1" />
+        <spike2 x="210" y="470" angle="90" size="2" />
+        <spike3 x="140" y="530" angle="0" size="3" />
+        <spike1 x="250" y="750" angle="0" size="1" />
+        <spike1 x="475" y="505" angle="45" size="1" />
+        <spike1 x="500" y="560" angle="90" size="1" />
+        <spike1 x="420" y="480" angle="0" size="1" />
+        <spike4 x="-20" y="560" angle="160" size="4" />
+        <spike2 x="590" y="860" angle="0" size="2" />
+        <spike4 x="615" y="245" angle="-4" size="4" />
+        <bubble x="280" y="1440" />
+        <bubble x="420" y="1400" />
+        <hand x="540" y="1480" segmentsCount="1" segment1Angle="-67" segment1Length="170" segment1Rotatable="false" />
+        <hand x="310" y="1710" segmentsCount="1" segment1Angle="-111" segment1Length="420" segment1Rotatable="false" />
+        <rocket x="610" y="1320" angle="25" impulse="23" impulseFactor="0.6" time="-1" isRotatable="false" />
+    </layer>
+    <layer name="lightbulbs">
+        <grab x="640" y="860" length="30" radius="-1" bindBulb="true" bulbNumber="1" breakable="false" />
+        <grab x="430" y="1135" length="30" radius="-1" bindBulb="true" bulbNumber="2" breakable="false" />
+        <grab x="645" y="1420" length="145" radius="-1" bindBulb="true" bulbNumber="3" breakable="false" />
+        <grab x="390" y="480" length="10" radius="-1" bindBulb="true" bulbNumber="4" breakable="false" />
+        <grab x="740" y="-20" length="70" radius="-1" bindBulb="true" bulbNumber="5" breakable="false" />
+        <grab x="580" y="-20" length="60" radius="-1" bindBulb="true" bulbNumber="6" breakable="false" />
+        <grab x="420" y="-20" length="50" radius="-1" bindBulb="true" bulbNumber="7" breakable="false" />
+        <grab x="240" y="-20" length="70" radius="-1" bindBulb="true" bulbNumber="8" breakable="false" />
+        <grab x="60" y="-20" length="90" radius="-1" bindBulb="true" bulbNumber="9" breakable="false" />
+        <grab x="340" y="890" length="40" radius="-1" bindBulb="true" bulbNumber="10" breakable="false" />
+        <grab x="800" y="530" length="30" radius="-1" bindBulb="true" bulbNumber="11" breakable="false" />
+        <grab x="66" y="530" length="30" radius="-1" bindBulb="true" bulbNumber="12" breakable="false" />
+        <lightBulb x="640" y="790" litRadius="0" bulbNumber="1" />
+        <lightBulb x="430" y="1065" litRadius="0" bulbNumber="2" />
+        <lightBulb x="645" y="1240" litRadius="100" bulbNumber="3" />
+        <lightBulb x="390" y="430" litRadius="100" bulbNumber="4" />
+        <lightBulb x="741" y="87" litRadius="100" bulbNumber="5" />
+        <lightBulb x="581" y="70" litRadius="0" bulbNumber="6" />
+        <lightBulb x="421" y="60" litRadius="100" bulbNumber="7" />
+        <lightBulb x="241" y="87" litRadius="0" bulbNumber="8" />
+        <lightBulb x="61" y="100" litRadius="100" bulbNumber="9" />
+        <lightBulb x="340" y="810" litRadius="0" bulbNumber="10" />
+        <lightBulb x="800" y="460" litRadius="0" bulbNumber="11" />
+        <lightBulb x="66" y="460" litRadius="0" bulbNumber="12" />
+    </layer>
+</map>

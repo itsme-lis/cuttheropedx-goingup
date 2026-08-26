@@ -1,0 +1,112 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="320" height="960" levelName="sunrise by binnyy7" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="true" themeBox="16" />
+    </layer>
+ 
+    <layer name="Objects">
+        <rotatedCircle x="516" y="-2" size="176" handleAngle="-147" oneHandle="true"  />
+        <bouncer1 x="17" y="311" angle="-90" size="1" path="-53,1" moveSpeed="25" />
+        <bouncer1 x="30" y="404" angle="-90" size="1" path="-52,1" moveSpeed="25" />
+        <spike2 x="28" y="456" angle="90" size="4" />
+        <spike2 x="28" y="356" angle="90" size="1" />
+        <star x="212" y="54" timeout="-1" />
+        <lantern x="146" y="40" candyCaptured="false" />
+        <bouncer1 x="-20" y="79" angle="149" size="2" />
+        <rotatedCircle x="-291" y="486" size="211" handleAngle="175" oneHandle="true"  />
+        <pump x="169" y="712" angle="-90" />
+        <sock x="85" y="760" group="1" angle="90" />
+        <rotatedCircle x="224" y="461" size="96" handleAngle="180" oneHandle="true"  />
+        <grab x="69" y="821" length="25" wheel="false" gun="false" radius="48" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <sock x="38" y="760" group="2" angle="90" />
+        <bouncer1 x="-38" y="640" angle="0" size="1" />
+        <spike2 x="334" y="154" angle="90" size="1" path="1,177" moveSpeed="50" />
+        <bouncer1 x="-65" y="13" angle="153" size="2" />
+        <bouncer1 x="-48" y="37" angle="152" size="2" />
+        <rotatedCircle x="587" y="365" size="91" handleAngle="35" oneHandle="true"  />
+        <star x="82" y="430" timeout="-1" />
+        <star x="17" y="188" timeout="-1" />
+        <bubble x="16" y="187" />
+        <lightBulb x="-35" y="203" litRadius="119" bulbNumber="1" />
+        <sock x="-66" y="182" group="2" angle="0" />
+        <sock x="-65" y="221" group="1" angle="0" />
+        <spike2 x="28" y="633" angle="90" size="4" />
+        <candy x="82" y="626" />
+        <grab x="77" y="575" length="50" wheel="false" gun="false" radius="-1" moveLength="178" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <bouncer1 x="29" y="5" angle="135" size="2" />
+        <bouncer1 x="21" y="-14" angle="135" size="2" />
+        <bouncer1 x="45" y="26" angle="135" size="2" />
+        <bouncer1 x="-187" y="3" angle="173" size="2" />
+        <bouncer1 x="-34" y="56" angle="149" size="2" />
+        <bouncer1 x="-250" y="4" angle="180" size="2" />
+        <bouncer1 x="-73" y="-5" angle="151" size="2" />
+        <bouncer1 x="-119" y="13" angle="162" size="1" />
+        <bouncer1 x="-179" y="25" angle="172" size="2" />
+        <bouncer1 x="-241" y="29" angle="180" size="2" />
+        <bouncer1 x="-106" y="35" angle="162" size="1" />
+        <bouncer1 x="-168" y="51" angle="172" size="2" />
+        <bouncer1 x="-241" y="57" angle="180" size="2" />
+        <bouncer1 x="-97" y="56" angle="162" size="1" />
+        <bouncer1 x="-162" y="70" angle="171" size="2" />
+        <bouncer1 x="-237" y="74" angle="180" size="2" />
+        <bouncer1 x="-88" y="80" angle="162" size="1" />
+        <bouncer1 x="-157" y="94" angle="171" size="2" />
+        <bouncer1 x="-235" y="99" angle="180" size="2" />
+        <spike2 x="286" y="631" angle="90" size="4" />
+        <lightBulb x="475" y="466" litRadius="50" bulbNumber="3" />
+        <grab x="165" y="525" length="30" wheel="false" gun="false" radius="48" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <grab x="474" y="534" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" bindBulb="true" bulbNumber="3" kickable="false" kicked="false" />
+        <bubble x="476" y="463" />
+        <spike2 x="341" y="415" angle="122" size="2" />
+        <spike2 x="416" y="374" angle="180" size="2" />
+        <spike2 x="302" y="496" angle="108" size="2" />
+        <bubble x="515" y="603" />
+        <lightBulb x="514" y="604" litRadius="50" bulbNumber="4" />
+        <grab x="514" y="669" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" bindBulb="true" bulbNumber="4" kickable="false" kicked="false" />
+        <bouncer1 x="-80" y="109" angle="162" size="1" />
+        <bouncer1 x="-148" y="125" angle="171" size="2" />
+        <bouncer1 x="-235" y="130" angle="180" size="2" />
+        <spike2 x="554" y="802" angle="-155" size="2" />
+        <spike2 x="483" y="772" angle="-160" size="1" />
+        <spike2 x="555" y="374" angle="180" size="4" />
+        <lantern x="394" y="410" candyCaptured="false" />
+        <sock x="460" y="900" group="0" angle="-135" />
+        <spike2 x="365" y="945" angle="-150" size="1" />
+        <spike2 x="312" y="921" angle="-160" size="1" />
+        <spike2 x="258" y="906" angle="-170" size="1" />
+        <spike2 x="-44" y="943" angle="150" size="1" />
+        <spike2 x="7" y="919" angle="160" size="1" />
+        <spike2 x="62" y="905" angle="170" size="1" />
+        <spike2 x="160" y="900" angle="180" size="3" />
+        <spike2 x="410" y="749" angle="-165" size="2" />
+        <spike2 x="-162" y="770" angle="160" size="1" />
+        <spike2 x="-233" y="800" angle="155" size="2" />
+        <spike2 x="-88" y="747" angle="165" size="2" />
+        <spike2 x="-14" y="729" angle="170" size="1" />
+        <spike2 x="42" y="723" angle="175" size="1" />
+        <spike2 x="334" y="731" angle="-170" size="1" />
+        <spike2 x="277" y="723" angle="-175" size="1" />
+        <sock x="394" y="683" group="0" angle="-90" />
+        <grab x="457" y="210" length="50" wheel="false" gun="false" radius="105" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <grab x="348" y="9" length="25" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" bindBulb="true" bulbNumber="2" kickable="false" kicked="false" />
+        <lightBulb x="345" y="86" litRadius="158" bulbNumber="2" />
+        <target x="170" y="863" />
+        <grab x="201" y="789" length="50" wheel="false" gun="false" radius="40" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <spike2 x="160" y="720" angle="180" size="4" />
+        <tutorialText x="243" y="741" locale="en" text="sunrise by binny7" width="160" />
+        <tutorialText x="247" y="784" locale="en" text="Sweet and sun reside" width="186" />
+        <tutorialText x="233" y="808" locale="en" text="Ascend down to my closed eyes" width="281" />
+        <tutorialText x="219" y="834" locale="en" text="Then it's breakfast time" width="215" />
+        <transporter x="-37" y="665" angle="90" direction="forward" type="manual" width="42" length="409" />
+        <rotatedCircle x="175" y="267" size="126" handleAngle="26" oneHandle="false"  />
+    </layer>
+ 
+</map>

@@ -1,0 +1,166 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="853" height="2400" levelName="Elevator of Pain by It's Me, Lis!" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="true" nightLevel="false" themeBox="13" />
+    </layer>
+ 
+    <layer name="Objects">
+        <spike2 x="386" y="300" angle="0" size="2" />
+        <pump x="126" y="260" angle="0" />
+        <bouncer1 x="486" y="40" angle="180" size="2" />
+        <bouncer1 x="586" y="40" angle="180" size="2" />
+        <bouncer1 x="686" y="40" angle="180" size="2" />
+        <bouncer1 x="786" y="40" angle="180" size="2" />
+        <pump x="566" y="600" angle="180" />
+        <tutorial06 x="226" locale="en" y="2320" />
+        <spike2 x="566" y="2160" angle="0" size="1" />
+        <star x="386" y="1730" timeout="-1" />
+        <star x="366" y="2320" timeout="-1" />
+        <spike2 x="506" y="2220" angle="90" size="2" />
+        <spike2 x="566" y="2180" angle="0" size="2" />
+        <bouncer1 x="526" y="2220" angle="-90" size="2" />
+        <tutorialText x="146" y="2067" locale="en" text="Reference From Celeste Chapter 4 The Golden Ridge B-Side" width="160" />
+        <tutorialText x="606" y="2127" locale="en" text="Elevator Of Pain By It's Me, Lis!" width="160" />
+        <bouncer1 x="406" y="260" angle="90" size="2" />
+        <target x="786" y="100" />
+        <bouncer1 x="386" y="160" angle="0" size="2" />
+        <bouncer1 x="486" y="160" angle="0" size="2" />
+        <bouncer1 x="686" y="160" angle="0" size="2" />
+        <spike2 x="466" y="260" angle="90" size="2" />
+        <bouncer1 x="446" y="200" angle="180" size="1" />
+        <bouncer1 x="786" y="160" angle="0" size="2" />
+        <spike2 x="446" y="260" angle="90" size="2" />
+        <bouncer1 x="326" y="260" angle="-90" size="2" />
+        <bouncer1 x="366" y="280" angle="180" size="1" />
+        <bouncer1 x="346" y="1640" angle="90" size="2" />
+        <bouncer1 x="346" y="1520" angle="90" size="2" />
+        <bouncer1 x="346" y="1740" angle="90" size="2" />
+        <pump x="326" y="1740" angle="0" />
+        <bouncer1 x="346" y="1840" angle="90" size="2" />
+        <bouncer1 x="546" y="1580" angle="-90" size="2" />
+        <spike2 x="366" y="1140" angle="90" size="2" />
+        <spike2 x="326" y="1200" angle="0" size="1" />
+        <spike2 x="326" y="1220" angle="0" size="1" />
+        <spike2 x="326" y="1240" angle="180" size="1" />
+        <bouncer1 x="326" y="1220" angle="90" size="1" />
+        <bouncer1 x="346" y="1140" angle="90" size="2" />
+        <bouncer1 x="346" y="1280" angle="90" size="1" />
+        <bouncer1 x="346" y="1360" angle="90" size="2" />
+        <bouncer1 x="326" y="1440" angle="90" size="1" />
+        <bouncer1 x="506" y="1160" angle="0" size="2" />
+        <pump x="526" y="1300" angle="180" />
+        <bouncer1 x="486" y="1300" angle="-90" size="2" />
+        <spike2 x="506" y="1140" angle="180" size="3" />
+        <spike2 x="446" y="1200" angle="90" size="2" />
+        <spike2 x="466" y="1300" angle="90" size="2" />
+        <spike2 x="366" y="1440" angle="0" size="1" />
+        <spike2 x="366" y="1460" angle="180" size="1" />
+        <spike2 x="366" y="1500" angle="90" size="1" />
+        <bouncer1 x="566" y="1120" angle="-90" size="1" />
+        <bouncer1 x="466" y="1200" angle="-90" size="2" />
+        <bouncer1 x="486" y="1400" angle="-90" size="2" />
+        <bouncer1 x="526" y="1500" angle="-135" size="1" />
+        <spike2 x="506" y="1460" angle="0" size="1" />
+        <spike2 x="486" y="1780" angle="0" size="2" />
+        <spike2 x="486" y="1800" angle="0" size="2" />
+        <spike2 x="486" y="1820" angle="0" size="2" />
+        <spike2 x="426" y="1600" angle="180" size="2" />
+        <grab x="506" y="1740" length="50" wheel="false" gun="false" radius="30" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <bouncer1 x="546" y="1780" angle="-90" size="2" />
+        <pump x="546" y="1860" angle="180" />
+        <bouncer1 x="506" y="2000" angle="-90" size="2" />
+        <bouncer1 x="586" y="2120" angle="-90" size="1" />
+        <bouncer1 x="506" y="1860" angle="-90" size="1" />
+        <bouncer1 x="506" y="1920" angle="-90" size="1" />
+        <spike2 x="386" y="1900" angle="135" size="1" />
+        <bouncer1 x="346" y="1940" angle="90" size="2" />
+        <spike2 x="366" y="1580" angle="90" size="2" />
+        <spike2 x="366" y="1880" angle="90" size="2" />
+        <spike2 x="366" y="1780" angle="90" size="2" />
+        <spike2 x="366" y="1680" angle="90" size="2" />
+        <pump x="306" y="1940" angle="0" />
+        <bouncer1 x="326" y="2320" angle="90" size="2" />
+        <bouncer1 x="386" y="2380" angle="0" size="2" />
+        <grab x="686" y="2220" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <candyL x="686" y="2320" />
+        <bouncer1 x="786" y="2380" angle="0" size="2" />
+        <spike2 x="326" y="2220" angle="90" size="3" />
+        <spike2 x="326" y="2080" angle="90" size="4" />
+        <pump x="826" y="2320" angle="180" />
+        <bouncer1 x="486" y="2380" angle="0" size="2" />
+        <bouncer1 x="586" y="2380" angle="0" size="2" />
+        <bouncer1 x="686" y="2380" angle="0" size="2" />
+        <bouncer1 x="846" y="2320" angle="-90" size="2" />
+        <bouncer1 x="346" y="1040" angle="90" size="2" />
+        <bouncer1 x="346" y="940" angle="90" size="2" />
+        <bouncer1 x="566" y="1040" angle="-90" size="2" />
+        <bouncer1 x="566" y="940" angle="-90" size="2" />
+        <spike2 x="366" y="1040" angle="90" size="2" />
+        <spike2 x="366" y="940" angle="90" size="2" />
+        <spike2 x="546" y="1080" angle="90" size="2" />
+        <spike2 x="546" y="960" angle="90" size="3" />
+        <bouncer1 x="526" y="880" angle="180" size="1" />
+        <bouncer1 x="386" y="720" angle="90" size="2" />
+        <spike2 x="406" y="720" angle="90" size="2" />
+        <grab x="406" y="1300" length="50" wheel="false" gun="false" radius="30" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <bouncer1 x="386" y="820" angle="90" size="2" />
+        <spike2 x="406" y="780" angle="90" size="3" />
+        <bouncer1 x="346" y="660" angle="0" size="2" />
+        <bouncer1 x="246" y="660" angle="0" size="2" />
+        <bouncer1 x="166" y="660" angle="0" size="1" />
+        <bouncer1 x="126" y="620" angle="90" size="1" />
+        <spike2 x="306" y="640" angle="0" size="4" />
+        <spike2 x="186" y="640" angle="0" size="2" />
+        <spike2 x="146" y="620" angle="90" size="1" />
+        <bouncer1 x="126" y="540" angle="90" size="2" />
+        <bouncer1 x="126" y="440" angle="90" size="2" />
+        <spike2 x="146" y="480" angle="90" size="4" />
+        <spike2 x="146" y="560" angle="90" size="2" />
+        <bouncer1 x="146" y="340" angle="90" size="2" />
+        <bouncer1 x="146" y="260" angle="90" size="1" />
+        <bouncer1 x="126" y="200" angle="90" size="1" />
+        <bouncer1 x="126" y="140" angle="90" size="1" />
+        <spike2 x="146" y="140" angle="90" size="1" />
+        <spike2 x="146" y="200" angle="90" size="1" />
+        <bouncer1 x="486" y="360" angle="-90" size="2" />
+        <bouncer1 x="486" y="260" angle="-90" size="2" />
+        <spike2 x="466" y="1600" angle="90" size="1" />
+        <bouncer1 x="546" y="1680" angle="-90" size="2" />
+        <bouncer1 x="546" y="2080" angle="-135" size="1" />
+        <tutorial05 x="426" locale="en" y="2280" />
+        <bouncer1 x="326" y="2220" angle="90" size="2" />
+        <bouncer1 x="326" y="2120" angle="90" size="2" />
+        <bouncer1 x="326" y="2020" angle="90" size="2" />
+        <bubble x="426" y="2280" />
+        <bouncer1 x="566" y="2200" angle="0" size="2" />
+        <bouncer1 x="526" y="460" angle="-90" size="2" />
+        <spike2 x="506" y="500" angle="90" size="4" />
+        <bouncer1 x="526" y="560" angle="-90" size="2" />
+        <bouncer1 x="526" y="640" angle="-90" size="1" />
+        <bouncer1 x="526" y="720" angle="-90" size="2" />
+        <bouncer1 x="526" y="820" angle="-90" size="2" />
+        <spike2 x="506" y="840" angle="90" size="2" />
+        <spike2 x="506" y="780" angle="90" size="4" />
+        <spike2 x="506" y="620" angle="90" size="2" />
+        <spike2 x="506" y="660" angle="90" size="2" />
+        <spike2 x="526" y="900" angle="180" size="1" />
+        <bouncer1 x="366" y="880" angle="135" size="2" />
+        <tutorialText x="146" y="2247" locale="en" text="Elevator Starts Here" width="160" />
+        <bouncer1 x="586" y="160" angle="0" size="2" />
+        <bouncer1 x="346" y="200" angle="-45" size="1" />
+        <spike2 x="426" y="260" angle="90" size="2" />
+        <pump x="146" y="100" angle="0" />
+        <star x="266" y="240" timeout="-1" />
+        <grab x="306" y="460" length="50" wheel="false" gun="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <candyR x="306" y="520" />
+    </layer>
+ 
+</map>

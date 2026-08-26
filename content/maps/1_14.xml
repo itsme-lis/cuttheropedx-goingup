@@ -1,0 +1,101 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="320" height="960" levelName="Bathhouse Tower by Crutter_Botch" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" water="495" waterSpeed="0" themeBox="14" />
+    </layer>
+ 
+    <layer name="Objects">
+        <grab x="-181" y="723" length="50" wheel="true" gun="false" radius="70" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <sock x="141" y="41" group="1" angle="90" />
+        <grab x="-132" y="62" length="50" wheel="true" gun="false" radius="169" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <grab x="425" y="67" length="50" wheel="true" gun="false" radius="169" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <star x="258" y="338" timeout="-1" />
+        <lantern x="255" y="428" candyCaptured="false" />
+        <spike4 x="307" y="383" angle="90" size="3" toggled="1" />
+        <lantern x="143" y="17" candyCaptured="false" />
+        <pump x="100" y="246" angle="-45" />
+        <pump x="206" y="248" angle="-135" />
+        <bouncer1 x="148" y="245" angle="0" size="2" />
+        <bouncer1 x="308" y="642" angle="-90" size="2" />
+        <bouncer1 x="110" y="642" angle="-90" size="2" />
+        <bouncer1 x="-69" y="642" angle="-90" size="2" />
+        <spike4 x="538" y="410" angle="-45" size="3" toggled="1" />
+        <sock x="350" y="817" group="0" angle="180" />
+        <tutorialText x="-139" y="826" locale="en" text="By Crutter_Botch" width="160" />
+        <tutorialText x="-140" y="797" locale="en" text="Bathouse Tower" width="160" />
+        <bouncer1 x="-238" y="643" angle="90" size="2" />
+        <spike2 x="543" y="467" angle="180" size="4" />
+        <bouncer1 x="502" y="484" angle="0" size="2" />
+        <bouncer1 x="577" y="520" angle="90" size="2" />
+        <spike4 x="512" y="276" angle="0" size="3" toggled="2" />
+        <bouncer1 x="463" y="536" angle="90" size="2" />
+        <sock x="-144" y="566" group="1" angle="90" />
+        <bouncer1 x="221" y="482" angle="0" size="2" />
+        <bouncer1 x="-210" y="494" angle="-50" size="2" />
+        <bouncer1 x="-113" y="765" angle="0" size="2" />
+        <spike2 x="364" y="467" angle="180" size="4" />
+        <bouncer1 x="-207" y="766" angle="0" size="2" />
+        <pump x="19" y="541" angle="90" />
+        <pump x="514" y="470" angle="90" />
+        <load x="-148" y="527" />
+        <spike4 x="406" y="330" angle="180" size="3" toggled="2" />
+        <load x="515" y="533" />
+        <spike2 x="-174" y="454" angle="-174" size="4" />
+        <bouncer1 x="579" y="744" angle="90" size="2" />
+        <bouncer1 x="404" y="485" angle="0" size="2" />
+        <bouncer1 x="315" y="482" angle="0" size="2" />
+        <spike4 x="-10" y="384" angle="90" size="3" toggled="1" />
+        <bouncer1 x="-55" y="487" angle="0" size="2" />
+        <bouncer1 x="38" y="484" angle="0" size="2" />
+        <bouncer1 x="130" y="484" angle="0" size="2" />
+        <star x="164" y="818" timeout="-1" />
+        <sock x="143" y="340" group="2" angle="90" />
+        <bouncer1 x="270" y="536" angle="90" size="2" />
+        <bouncer1 x="99" y="535" angle="90" size="2" />
+        <bouncer1 x="-65" y="538" angle="90" size="2" />
+        <bouncer1 x="547" y="647" angle="-90" size="2" />
+        <sock x="-145" y="502" group="0" angle="90" />
+        <spike2 x="385" y="273" angle="180" size="2" />
+        <spike2 x="-260" y="534" angle="90" size="4" />
+        <spike2 x="355" y="784" angle="-173" size="4" />
+        <spike2 x="-4" y="785" angle="172" size="4" />
+        <spike2 x="172" y="779" angle="180" size="4" />
+        <grab x="342" y="872" length="50" wheel="false" gun="false" radius="59" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <candy x="-162" y="839" />
+        <grab x="-166" y="925" length="50" wheel="false" gun="false" radius="-1" moveLength="141" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <spike4 x="-176" y="269" angle="180" size="4" toggled="1" />
+        <spike2 x="-17" y="272" angle="180" size="4" />
+        <sock x="3" y="417" group="2" angle="180" />
+        <spike4 x="279" y="274" angle="0" size="3" toggled="0" />
+        <spike2 x="143" y="273" angle="180" size="3" />
+        <spike2 x="203" y="364" angle="90" size="4" />
+        <spike2 x="84" y="367" angle="90" size="4" />
+        <target x="144" y="370" />
+        <bubble x="191" y="425" />
+        <bubble x="140" y="436" />
+        <bubble x="91" y="425" />
+        <star x="454" y="647" timeout="-1" />
+        <spike2 x="-261" y="708" angle="90" size="4" />
+        <spike2 x="184" y="466" angle="180" size="4" />
+        <spike2 x="3" y="465" angle="180" size="4" />
+        <spike2 x="164" y="850" angle="180" size="2" />
+        <spike2 x="-181" y="792" angle="180" size="4" />
+        <spike2 x="540" y="794" angle="180" size="4" />
+        <transporter x="596" y="642" angle="180" direction="forward" type="auto" width="50" length="789" velocity="50" />
+        <rotatedCircle x="171" y="872" size="138" handleAngle="90" oneHandle="false"  />
+        <transporter x="-238" y="538" angle="0" direction="forward" type="auto" width="50" length="770" velocity="50" />
+        <transporter x="564" y="717" angle="180" direction="forward" type="manual" width="50" length="785" />
+        <transporter x="529" y="66" angle="180" direction="forward" type="manual" width="50" length="291" />
+        <transporter x="50" y="62" angle="180" direction="forward" type="manual" width="50" length="278" />
+        <rotatedCircle x="300" y="872" size="81" handleAngle="90" oneHandle="false"  />
+    </layer>
+ 
+</map>

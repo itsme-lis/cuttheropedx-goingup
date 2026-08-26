@@ -1,0 +1,59 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="853" height="960" levelName="Hellevator by Hitspace" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="17" />
+    </layer>
+ 
+    <layer name="Objects">
+        <tutorialText x="666" y="747" locale="en" text="Good luck!" width="160" />
+        <tutorialText x="666" y="507" locale="en" text="a kaizo level made for the Going Up Level Contest" width="160" />
+        <tutorialText x="46" y="527" locale="en" text="Hellevator" width="160" />
+        <tutorialText x="46" y="547" locale="en" text="by HitSpace" width="160" />
+        <sock x="806" y="360" group="2" angle="180" />
+        <spike2 x="786" y="320" angle="0" size="4" />
+        <spike2 x="46" y="220" angle="90" size="3" />
+        <spike2 x="87" y="140" angle="0" size="2" />
+        <star x="87" y="220" timeout="-1" />
+        <sock x="87" y="200" group="2" angle="90" />
+        <spike2 x="126" y="220" angle="90" size="3" />
+        <bouncer1 x="87" y="400" angle="15" size="1" />
+        <sock x="706" y="100" group="1" angle="180" />
+        <spike2 x="126" y="820" angle="90" size="4" />
+        <pump x="766" y="440" angle="-90" />
+        <pump x="706" y="440" angle="-90" />
+        <spike2 x="766" y="400" angle="0" size="4" />
+        <spike2 x="126" y="640" angle="0" size="4" />
+        <star x="87" y="680" timeout="-1" />
+        <spike2 x="166" y="720" angle="0" size="2" />
+        <pump x="166" y="760" angle="-90" />
+        <bouncer1 x="126" y="680" angle="90" size="1" />
+        <star x="166" y="680" timeout="-1" />
+        <sock x="206" y="820" group="0" angle="-45" />
+        <candy x="87" y="800" />
+        <grab x="87" y="780" length="10" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <sock x="87" y="880" group="0" angle="-90" />
+        <sock x="766" y="240" group="1" angle="45" />
+        <target x="786" y="260" />
+        <spike2 x="786" y="160" angle="0" size="4" />
+        <spike2 x="706" y="240" angle="90" size="4" />
+        <bouncer1 x="606" y="880" angle="-90" size="2" />
+        <bouncer1 x="246" y="880" angle="90" size="2" />
+        <bouncer1 x="526" y="880" angle="0" size="2" />
+        <bouncer1 x="326" y="880" angle="0" size="2" />
+        <bouncer1 x="426" y="880" angle="0" size="2" />
+        <transporter x="426" y="920" angle="90" direction="forward" type="manual" width="80" length="880" />
+        <transporter x="526" y="920" angle="90" direction="forward" type="manual" width="80" length="880" />
+        <transporter x="326" y="920" angle="90" direction="forward" type="manual" width="80" length="880" />
+        <transporter x="246" y="920" angle="90" direction="forward" type="manual" width="50" length="880" />
+        <transporter x="606" y="920" angle="90" direction="forward" type="manual" width="50" length="880" />
+    </layer>
+ 
+</map>

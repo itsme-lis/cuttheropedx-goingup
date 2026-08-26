@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="1460" levelName="Reach to the Top! by BurgerDude" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <sock x="120" y="70" group="0" angle="-28" />
+    <spike3 x="-180" y="1310" angle="90" size="3" />
+    <spike3 x="-100" y="1310" angle="90" size="3" />
+    <pump x="-140" y="1290" angle="-90" />
+    <candy x="-140" y="1350" candyNumber="0" />
+    <spike4 x="-180" y="970" angle="90" size="4" />
+    <ghost x="-140" y="1225" bouncer="true" bubble="false" grab="false" radius="50" angle="0" />
+    <pump x="-140" y="1430" angle="-90" />
+    <bouncer2 x="-140" y="1390" angle="0" size="2" />
+    <spike4 x="520" y="230" angle="180" size="4" />
+    <spike4 x="360" y="230" angle="180" size="4" />
+    <spike4 x="180" y="230" angle="180" size="4" />
+    <spike4 x="0" y="230" angle="180" size="4" />
+    <spike4 x="-180" y="230" angle="180" size="4" />
+    <sock x="-220" y="390" group="0" angle="-5" />
+    <bouncer2 x="-220" y="450" angle="0" size="2" />
+    <target x="160" y="50" />
+    <bouncer2 x="-80" y="450" angle="0" size="2" />
+    <bouncer2 x="60" y="450" angle="0" size="2" />
+    <bouncer2 x="200" y="450" angle="0" size="2" />
+    <grab x="380" y="410" length="50" wheel="false" gun="false" radius="70" moveLength="207" moveVertical="false" moveOffset="103" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+    <grab x="200" y="570" length="50" wheel="false" gun="false" radius="77" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+    <pump x="-220" y="650" angle="0" />
+    <pump x="140" y="690" angle="0" />
+    <star x="-140" y="870" timeout="-1" />
+    <star x="-120" y="910" timeout="-1" />
+    <star x="-160" y="910" timeout="-1" />
+    <spike2 x="-100" y="750" angle="180" size="2" toggled="1" />
+    <spike2 x="-180" y="750" angle="180" size="2" toggled="1" />
+    <spike4 x="-180" y="790" angle="90" size="4" />
+    <grab x="-140" y="570" length="50" wheel="false" gun="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+    <spike4 x="-100" y="790" angle="90" size="4" />
+    <spike4 x="-100" y="970" angle="90" size="4" />
+    <spike4 x="-180" y="1150" angle="90" size="4" />
+    <spike4 x="-100" y="1150" angle="90" size="4" />
+  </layer>
+</map>

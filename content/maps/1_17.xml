@@ -1,0 +1,48 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="320" height="960" levelName="The Rise and Fall by Matheus Lopes" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="2" />
+    </layer>
+ 
+    <layer name="Objects">
+        <star x="29" y="586" timeout="5" />
+        <star x="346" y="468" timeout="10" />
+        <star x="497" y="832" timeout="20" />
+        <pump x="12" y="445" angle="45" />
+        <pump x="164" y="416" angle="57" />
+        <pump x="90" y="427" angle="57" />
+        <spike2 x="115" y="611" angle="10" size="1" />
+        <spike2 x="231" y="615" angle="0" size="4" />
+        <spike2 x="188" y="468" angle="0" size="4" />
+        <pump x="194" y="656" angle="156" />
+        <pipe x="95" y="786" angle="-90" />
+        <spike2 x="276" y="419" angle="90" size="4" />
+        <spike2 x="176" y="681" angle="63" size="4" />
+        <grab x="497" y="444" length="50" wheel="false" gun="false" radius="60" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <pump x="245" y="444" angle="0" />
+        <spike2 x="383" y="552" angle="90" size="3" />
+        <spike2 x="350" y="615" angle="180" size="1" />
+        <steamTube x="345" y="624" angle="0" />
+        <pump x="-38" y="594" angle="-17" />
+        <spike2 x="3" y="485" angle="168" size="4" />
+        <spike2 x="217" y="850" angle="90" size="4" />
+        <bubble x="95" y="693" />
+        <grab x="-36" y="685" length="50" wheel="false" gun="true" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <candy x="-171" y="142" />
+        <grab x="-172" y="57" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <spike2 x="-80" y="654" angle="90" size="4" />
+        <spike2 x="-81" y="467" angle="90" size="4" />
+        <spike2 x="-80" y="278" angle="90" size="4" />
+        <spike2 x="-81" y="88" angle="90" size="4" />
+        <target x="496" y="900" />
+    </layer>
+ 
+</map>

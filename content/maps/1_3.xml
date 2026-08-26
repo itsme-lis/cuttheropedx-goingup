@@ -1,0 +1,40 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="480" levelName="No ropes?!?! No bubbles?!?! No gravity button?!?! by karapet" />
+<gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="12" />
+</layer>
+<layer name="Objects">
+<target x="159" y="27" />
+<candy x="158" y="349" />
+<pump x="53" y="433" angle="-55" />
+<pump x="107" y="443" angle="-65" />
+<pump x="158" y="439" angle="-85" />
+<pump x="208" y="434" angle="-115" />
+<pump x="269" y="439" angle="-120" />
+<spike2 x="161" y="407" angle="180" size="4" />
+<spike2 x="61" y="130" angle="90" size="4" />
+<spike2 x="61" y="311" angle="90" size="4" />
+<spike2 x="260" y="126" angle="-90" size="4" />
+<spike2 x="258" y="313" angle="-90" size="4" />
+<star x="216" y="294" />
+<star x="101" y="221" />
+<pump x="31" y="382" angle="-40" />
+<pump x="30" y="347" angle="-45" />
+<pump x="31" y="297" angle="-40" />
+<pump x="28" y="252" angle="-30" />
+<pump x="35" y="202" angle="-35" />
+<pump x="33" y="158" angle="-40" />
+<pump x="29" y="107" angle="-35" />
+<pump x="31" y="57" angle="-35" />
+<pump x="289" y="396" angle="-135" />
+<pump x="292" y="353" angle="-145" />
+<pump x="292" y="313" angle="-145" />
+<pump x="288" y="262" angle="-135" />
+<pump x="292" y="225" angle="-140" />
+<pump x="294" y="180" angle="-155" />
+<pump x="291" y="143" angle="-150" />
+<pump x="288" y="105" angle="-145" />
+<pump x="290" y="65" angle="-150" />
+<star x="209" y="147" />
+</layer>
+</map>

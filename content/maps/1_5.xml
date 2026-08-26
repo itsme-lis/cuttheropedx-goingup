@@ -1,0 +1,38 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="320" height="960" levelName="Thrown Aside by koxoo" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="4" />
+    </layer>
+ 
+    <layer name="Objects">
+        <target x="163" y="73" />
+        <star x="234" y="181" timeout="-1" />
+        <bubble x="230" y="312" />
+        <sock x="232" y="837" group="1" angle="-135" />
+        <bouncer1 x="22" y="396" angle="13" size="1" />
+        <sock x="72" y="109" group="0" angle="99" />
+        <sock x="230" y="600" group="1" angle="-90" />
+        <bouncer1 x="159" y="396" angle="180" size="1" />
+        <bubble x="77" y="694" />
+        <bubble x="196" y="804" />
+        <sock x="158" y="287" group="0" angle="-90" />
+        <grab x="73" y="260" length="92" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" bindBulb="true" bulbNumber="1" kickable="false" kicked="false" />
+        <star x="230" y="683" timeout="-1" />
+        <star x="72" y="444" timeout="-1" />
+        <lightBulb x="74" y="392" litRadius="-1" bulbNumber="1" />
+        <grab x="156" y="601" length="56" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <bubble x="151" y="735" />
+        <candy x="151" y="731" />
+        <grab x="73" y="781" length="34" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <grab x="245" y="781" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+    </layer>
+ 
+</map>

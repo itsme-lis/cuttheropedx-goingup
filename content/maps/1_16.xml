@@ -1,0 +1,56 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="320" height="960" levelName="Dis candy, goin' up! by Milkas" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="8" />
+    </layer>
+ 
+    <layer name="Objects">
+        <spike2 x="419" y="455" angle="17" size="2" />
+        <sock x="451" y="188" group="0" angle="180" />
+        <pump x="111" y="394" angle="-135" />
+        <spike2 x="183" y="391" angle="164" size="2" />
+        <spike2 x="103" y="169" angle="-152" size="2" />
+        <spike2 x="180" y="176" angle="166" size="2" />
+        <spike2 x="298" y="380" angle="180" size="2" />
+        <grab x="439" y="187" length="50" wheel="false" gun="false" radius="22" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <bubble x="275" y="834" />
+        <bouncer1 x="-60" y="526" angle="0" size="1" />
+        <bubble x="439" y="204" />
+        <pump x="-143" y="787" angle="-90" />
+        <pump x="-94" y="626" angle="-113" />
+        <sock x="433" y="403" group="1" angle="-90" />
+        <grab x="-140" y="620" length="50" wheel="false" gun="false" radius="104" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <bouncer1 x="-225" y="517" angle="39" size="1" />
+        <grab x="-141" y="467" length="50" wheel="false" gun="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <pump x="-62" y="566" angle="-90" />
+        <pump x="338" y="678" angle="135" />
+        <star x="303" y="725" timeout="-1" />
+        <pump x="151" y="793" angle="-162" />
+        <pump x="-201" y="141" angle="-7" />
+        <grab x="-70" y="156" length="50" wheel="true" gun="false" radius="90" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <target x="142" y="108" />
+        <sock x="-31" y="349" group="1" angle="180" />
+        <grab x="430" y="351" length="50" wheel="false" gun="false" radius="26" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <grab x="-63" y="436" length="50" wheel="false" gun="false" radius="27" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <star x="51" y="352" timeout="-1" />
+        <spike2 x="-36" y="284" angle="-146" size="2" />
+        <pump x="237" y="148" angle="114" />
+        <pump x="484" y="239" angle="180" />
+        <spike2 x="287" y="165" angle="180" size="2" />
+        <star x="430" y="382" timeout="-1" />
+        <gravitySwitch x="55" y="119" />
+        <sock x="-69" y="323" group="0" angle="90" />
+        <pump x="-114" y="897" angle="0" />
+        <grab x="37" y="732" length="160" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <candy x="159" y="861" />
+    </layer>
+ 
+</map>

@@ -1,0 +1,31 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="320" height="960" levelName="What an Extreme by Samir_2ac" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="8" />
+    </layer>
+ 
+    <layer name="Objects">
+        <spike2 x="201" y="615" angle="90" size="2" />
+        <lantern x="160" y="300" candyCaptured="false" />
+        <electro x="88" y="679" initialDelay="0" offTime="2" onTime="5" angle="180" size="5" />
+        <gravitySwitch x="246" y="614" />
+        <spike4 x="160" y="360" angle="180" size="3" toggled="1" />
+        <grab x="160" y="450" length="50" wheel="false" gun="false" radius="70" moveLength="100" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <electro x="87" y="719" initialDelay="0" offTime="2" onTime="6" angle="180" size="5" />
+        <spike2 x="288" y="610" angle="90" size="2" />
+        <spike2 x="247" y="660" angle="180" size="2" />
+        <spike2 x="244" y="568" angle="0" size="2" />
+        <grab x="87" y="839" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="true" part="L" hidePath="false" kickable="false" kicked="false" />
+        <candy x="86" y="892" />
+        <target x="161" y="80" />
+    </layer>
+ 
+</map>

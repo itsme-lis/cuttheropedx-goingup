@@ -1,0 +1,65 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="320" height="960" levelName="Artificial Ascent by popcow" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="3" />
+    </layer>
+ 
+    <layer name="Objects">
+        <grab x="160" y="240" length="50" wheel="false" gun="false" radius="50" moveLength="25" moveVertical="true" moveOffset="10" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <grab x="320" y="160" length="50" wheel="false" gun="true" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <spike2 x="0" y="-60" angle="90" size="4" />
+        <grab x="0" y="160" length="50" wheel="false" gun="true" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <target x="160" y="60" />
+        <bubble x="220" y="820" />
+        <spike2 x="0" y="480" angle="90" size="4" />
+        <hand x="160" y="780" segmentsCount="1" segment1Angle="180" segment1Length="60" segment1Rotatable="true" />
+        <spike2 x="320" y="480" angle="90" size="4" />
+        <spike4 x="160" y="820" angle="180" size="4" toggled="1" />
+        <pump x="280" y="900" angle="180" />
+        <candy x="161" y="900" />
+        <spike2 x="320" y="840" angle="90" size="4" />
+        <tutorialText x="10" y="887" locale="en" text="artificial ascent" width="100" />
+        <grab x="160" y="820" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <spike2 x="320" y="660" angle="90" size="4" />
+        <spike2 x="320" y="1020" angle="90" size="4" />
+        <spike2 x="0" y="1020" angle="90" size="4" />
+        <spike2 x="0" y="840" angle="90" size="4" />
+        <spike2 x="0" y="660" angle="90" size="4" />
+        <spike2 x="320" y="-60" angle="90" size="4" />
+        <spike2 x="320" y="120" angle="90" size="4" />
+        <spike2 x="320" y="300" angle="90" size="4" />
+        <spike2 x="0" y="120" angle="90" size="4" />
+        <spike2 x="0" y="300" angle="90" size="4" />
+        <spike2 x="220" y="660" angle="0" size="4" />
+        <bouncer1 x="160" y="420" angle="0" size="1" />
+        <spike2 x="100" y="160" angle="90" size="2" />
+        <spike2 x="220" y="160" angle="90" size="2" />
+        <hand x="160" y="480" segmentsCount="1" segment1Angle="180" segment1Length="90" segment1Rotatable="true" />
+        <star x="160" y="180" timeout="-1" />
+        <bouncer1 x="160" y="140" angle="180" size="1" />
+        <spike4 x="160" y="140" angle="0" size="3" toggled="1" />
+        <star x="280" y="560" timeout="-1" />
+        <bouncer1 x="180" y="660" angle="0" size="1" />
+        <bouncer1 x="0" y="540" angle="60" size="1" />
+        <star x="160" y="480" timeout="-1" />
+        <pump x="0" y="40" angle="10" />
+        <pump x="320" y="40" angle="170" />
+        <bouncer1 x="280" y="340" angle="-135" size="1" />
+        <bouncer1 x="40" y="340" angle="135" size="1" />
+        <bubble x="280" y="100" />
+        <bubble x="40" y="100" />
+        <transporter x="280" y="580" angle="-90" direction="forward" type="manual" width="50" length="340" />
+        <transporter x="160" y="340" angle="-90" direction="forward" type="manual" width="50" length="100" />
+        <transporter x="280" y="80" angle="-90" direction="forward" type="manual" width="50" length="300" />
+        <transporter x="40" y="80" angle="-90" direction="forward" type="manual" width="50" length="300" />
+    </layer>
+ 
+</map>

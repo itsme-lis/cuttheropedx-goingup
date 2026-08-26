@@ -1,0 +1,88 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="853" height="2880" levelName="Forbidden Bounce by DarkTheCreature" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="6" />
+    </layer>
+ 
+    <layer name="Objects">
+	<tutorialText x="346" y="207" locale="en" text="Strongly recommended to play with SFX turned OFF" width="160" />
+	<star x="800" y="700" timeout="-1" path="0,-10734" moveSpeed="100" />
+	<star x="3550" y="3650" timeout="-1" path="-9999,-9999" moveSpeed="130" />
+	<star x="7750" y="150" timeout="-1" path="-9999,0" moveSpeed="100" />
+        <spike2 x="426" y="464" angle="0" size="3" />
+        <bouncer1 x="700" y="735" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="500" y="735" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="300" y="735" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="100" y="735" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+	<bouncer1 x="800" y="935" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="600" y="935" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="400" y="935" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="200" y="935" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="700" y="1135" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="500" y="1135" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="300" y="1135" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="100" y="1135" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+	<bouncer1 x="200" y="1135" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+	<bouncer1 x="600" y="1135" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+	<bouncer1 x="800" y="1135" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+	<bouncer1 x="700" y="1335" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="500" y="1335" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="300" y="1335" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+        <bouncer1 x="100" y="1335" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+	<bouncer1 x="200" y="1335" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+	<bouncer1 x="400" y="1335" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+	<bouncer1 x="800" y="1335" angle="0" size="2" path="0,-10734" moveSpeed="100" />
+	<bouncer1 x="600" y="-1135" angle="180" size="2" path="0,1265,-545,1265,-200,1265,0,-9999" moveSpeed="100" />
+	<bouncer1 x="325" y="-2865" angle="180" size="2" path="0,3000,-250,3000,350,3000,-175,3000,0,-9999" moveSpeed="130" />
+	<bouncer1 x="400" y="-2867" angle="180" size="1" path="0,3000,-250,3000,350,3000,-175,3000,0,-9999" moveSpeed="130" />
+	<bouncer1 x="475" y="-2865" angle="180" size="2" path="0,3000,-250,3000,350,3000,-175,3000,0,-9999" moveSpeed="130" />
+	<bouncer1 x="260" y="3165" angle="90" size="1" path="0,-3000,100,-3000,-240,-3000,365,-3000,-100,-3000,0,-9999" moveSpeed="130" />
+	<bouncer1 x="520" y="3165" angle="-90" size="1" path="0,-3000,100,-3000,-240,-3000,365,-3000,-100,-3000,0,-9999" moveSpeed="130" />
+	<bouncer1 x="-3150" y="3600" angle="90" size="1" path="9999,-9999" moveSpeed="130" />
+	<bouncer1 x="-3300" y="3600" angle="90" size="1" path="9999,-9999" moveSpeed="130" />
+	<bouncer1 x="-3450" y="3600" angle="90" size="1" path="9999,-9999" moveSpeed="130" />
+	<bouncer1 x="-3600" y="3600" angle="90" size="1" path="9999,-9999" moveSpeed="130" />
+	<bouncer1 x="-3750" y="3600" angle="90" size="1" path="9999,-9999" moveSpeed="130" />
+	<bouncer1 x="-3000" y="3600" angle="90" size="1" path="9999,-9999" moveSpeed="130" />
+	<bouncer1 x="-2850" y="3600" angle="90" size="1" path="9999,-9999" moveSpeed="130" />
+	<bouncer1 x="-2700" y="3600" angle="90" size="1" path="9999,-9999" moveSpeed="130" />
+	<bouncer1 x="3900" y="3700" angle="-90" size="1" path="-9999,-9999" moveSpeed="130" />
+	<bouncer1 x="4050" y="3700" angle="-90" size="1" path="-9999,-9999" moveSpeed="130" />
+	<bouncer1 x="4200" y="3700" angle="-90" size="1" path="-9999,-9999" moveSpeed="130" />
+	<bouncer1 x="4350" y="3700" angle="-90" size="1" path="-9999,-9999" moveSpeed="130" />
+	<bouncer1 x="4500" y="3700" angle="-90" size="1" path="-9999,-9999" moveSpeed="130" />
+	<bouncer1 x="3450" y="3700" angle="-90" size="1" path="-9999,-9999" moveSpeed="130" />
+	<bouncer1 x="3600" y="3700" angle="-90" size="1" path="-9999,-9999" moveSpeed="130" />
+	<bouncer1 x="3750" y="3700" angle="-90" size="1" path="-9999,-9999" moveSpeed="130" />
+	<bouncer1 x="5000" y="170" angle="-90" size="2" path="-9999,0" moveSpeed="100" rotateSpeed="-80"/>
+	<bouncer1 x="5200" y="170" angle="-90" size="2" path="-9999,0" moveSpeed="100" rotateSpeed="80"/>
+	<bouncer1 x="5400" y="170" angle="0" size="2" path="-9999,0" moveSpeed="100" rotateSpeed="-80"/>
+	<bouncer1 x="5600" y="170" angle="0" size="2" path="-9999,0" moveSpeed="100" rotateSpeed="80"/>
+	<bouncer1 x="-5500" y="170" angle="-90" size="2" path="6750,0" moveSpeed="100" rotateSpeed="-80"/>
+	<bouncer1 x="-5700" y="170" angle="-90" size="2" path="6750,0" moveSpeed="100" rotateSpeed="80"/>
+	<bouncer1 x="-5900" y="170" angle="0" size="2" path="6750,0" moveSpeed="100" rotateSpeed="-80"/>
+	<bouncer1 x="-6100" y="170" angle="0" size="2" path="6750,0" moveSpeed="100" rotateSpeed="80"/>
+	<sock x="-6800" y="135" group="0" angle="0" path="9999,0" moveSpeed="100"/>
+        <sock x="427" y="370" group="0" angle="90" />
+        <spike2 x="427" y="311" angle="0" size="3" />
+        <candy x="45" y="112" />
+        <spike2 x="426" y="90" angle="0" size="4" />
+        <spike2 x="626" y="90" angle="0" size="4" />
+        <spike2 x="226" y="90" angle="0" size="4" />
+        <spike2 x="70" y="90" angle="0" size="2" />
+        <spike2 x="782" y="90" angle="0" size="2" />
+        <grab x="44" y="65" length="25" wheel="false" gun="false" radius="-1" moveLength="763" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <target x="431" y="408" />
+        <spike2 x="496" y="387" angle="90" size="3" />
+        <spike2 x="356" y="387" angle="90" size="3" />
+    </layer>
+ 
+</map>
