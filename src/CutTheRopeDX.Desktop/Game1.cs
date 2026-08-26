@@ -177,7 +177,7 @@ namespace CutTheRopeDX
                     ?.InformationalVersion
                 ?? Assembly.GetExecutingAssembly().GetName().Version?.ToString()
                 ?? "Unknown";
-            Window.Title = $"Cut The Rope: DX v{version}";
+            Window.Title = $"Cut The Rope: DX - Going UP v{version}";
             base.Initialize();
         }
 
