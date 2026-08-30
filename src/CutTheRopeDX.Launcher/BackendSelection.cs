@@ -30,10 +30,10 @@ namespace CutTheRopeDX.Launcher
         public const string OverrideVariable = "CTRDX_GRAPHICS_BACKEND";
 
         /// <summary>Name of the Vulkan build, which sits beside the launcher.</summary>
-        public const string VulkanExecutable = "ctrdx-vk";
+        public const string VulkanExecutable = "ctrdx-up-vk";
 
         /// <summary>Name of the OpenGL build, which sits beside the launcher.</summary>
-        public const string OpenGlExecutable = "ctrdx-gl";
+        public const string OpenGlExecutable = "ctrdx-up-gl";
 
         /// <summary>
         /// Reads a forced backend from a command line or environment value.
