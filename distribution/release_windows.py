@@ -54,13 +54,13 @@ ARCHITECTURES = {
 }
 
 # Executable names the launcher looks for; must match BackendSelection.
-BACKEND_EXECUTABLES = {"VK": "ctrdx-vk", "GL": "ctrdx-gl"}
+BACKEND_EXECUTABLES = {"VK": "ctrdx-up-vk", "GL": "ctrdx-up-gl"}
 
 # Name the game publishes under before it is renamed per backend.
-GAME_ASSEMBLY = "CutTheRope-DX"
+GAME_ASSEMBLY = "CutTheRopeDX-GoingUP"
 
 LAUNCHER_ASSEMBLY = "CutTheRopeDX.Launcher"
-LAUNCHER_EXECUTABLE = "CutTheRope-DX"
+LAUNCHER_EXECUTABLE = "CutTheRopeDX-GoingUP"
 
 CONTENT_DIRECTORY = "content"
 UNSHIPPED_SUFFIXES = ".pdb"
