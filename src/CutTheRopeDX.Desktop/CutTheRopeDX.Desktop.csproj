@@ -14,7 +14,7 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <WindowsDistributionIcon>../../distribution/icons/CutTheRopeDXIcon.ico</WindowsDistributionIcon>
     <ApplicationIcon Condition="$([MSBuild]::IsOsPlatform('Windows'))">$(WindowsDistributionIcon)</ApplicationIcon>
-    <VersionPrefix>7.10.2026</VersionPrefix>
+    <VersionPrefix>10.7.2026</VersionPrefix>
     <VersionSuffix>dirty</VersionSuffix>
     <Company>ZeptoLab</Company>
     <Product>Cut The Rope: DX</Product>
