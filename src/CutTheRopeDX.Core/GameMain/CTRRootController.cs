@@ -174,6 +174,63 @@ namespace CutTheRopeDX.GameMain
             _ = _loadedThemePacks.Add(effectiveTheme);
         }
 
+        /// <summary>Sets the current level's candy-skin override (0-based skin index), or null to clear it.</summary>
+        /// <param name="skinIndex">Candy skin index this level should use, or <see langword="null"/>.</param>
+        public void SetCandySkinOverride(int? skinIndex)
+        {
+            _candySkinOverride = skinIndex;
+        }
+
+        /// <summary>
+        /// Gets the candy skin index that should render for the currently loaded level.
+        /// </summary>
+        /// <returns>The level's own <c>candySkin</c> override if set, otherwise the player's selected preference.</returns>
+        public int GetEffectiveCandySkin()
+        {
+            return _candySkinOverride ?? Preferences.GetIntForKey("PREFS_SELECTED_CANDY");
+        }
+
+        /// <summary>
+        /// Scans the given level XML for an optional <c>candySkin</c> attribute on its
+        /// <c>gameDesign</c> element (1-based skin number) and sets it as the level's candy-skin
+        /// override. Mirrors <see cref="DetectLevelThemeOverride"/>.
+        /// </summary>
+        /// <param name="mapOverride">The map XML to scan; falls back to <see cref="loadedMap"/> when omitted.</param>
+        internal void DetectLevelCandySkinOverride(XElement mapOverride = null)
+        {
+            string candySkinAttr = (mapOverride ?? loadedMap)?
+                .Descendants("gameDesign")
+                .FirstOrDefault()?
+                .Attribute("candySkin")?
+                .Value;
+
+            SetCandySkinOverride(
+                int.TryParse(candySkinAttr, out int candySkinNumber) && candySkinNumber > 0
+                    ? candySkinNumber - 1
+                    : null);
+        }
+
+        /// <summary>
+        /// Loads the current level's candy-skin-override texture (if different from the player's
+        /// selected preference, which <see cref="PackGame"/> already always loads) and tracks it so
+        /// it gets freed on the next return to the menu.
+        /// </summary>
+        /// <param name="resourceMgr">Shared resource manager.</param>
+        internal void LoadEffectiveCandySkin(CTRResourceMgr resourceMgr)
+        {
+            int defaultSkin = Preferences.GetIntForKey("PREFS_SELECTED_CANDY");
+            int effectiveSkin = GetEffectiveCandySkin();
+            if (effectiveSkin == defaultSkin)
+            {
+                // Already covered by PackGame's own baked-in candy resource; tracking it here too
+                // would cause a double free on menu exit.
+                return;
+            }
+
+            resourceMgr.LoadPack([CandySkinHelper.GetCandyResource(effectiveSkin)]);
+            _ = _loadedCandySkins.Add(effectiveSkin);
+        }
+
         /// <summary>
         /// Initialises the root controller, loads startup resources, and adds the startup child controller.
         /// </summary>
@@ -450,6 +507,12 @@ namespace CutTheRopeDX.GameMain
                             }
                             _loadedThemePacks.Clear();
                             SetLevelThemeOverride(null);
+                            foreach (int skinIndex in _loadedCandySkins)
+                            {
+                                resourceMgr.FreePack([CandySkinHelper.GetCandyResource(skinIndex)]);
+                            }
+                            _loadedCandySkins.Clear();
+                            SetCandySkinOverride(null);
                             resourceMgr.resourcesDelegate = (LoadingController)GetChild(2);
                             resourceMgr.InitLoading();
                             resourceMgr.LoadPack(PackMenu);
@@ -954,6 +1017,12 @@ namespace CutTheRopeDX.GameMain
 
         /// <summary>Theme pack indices (other than the active pack) whose backgrounds were loaded this session.</summary>
         private readonly HashSet<int> _loadedThemePacks = [];
+
+        /// <summary>Per-level candy-skin override (0-based skin index) set from the level's <c>candySkin</c> XML attribute.</summary>
+        private int? _candySkinOverride;
+
+        /// <summary>Candy-skin indices (other than the default preference) whose textures were loaded this session.</summary>
+        private readonly HashSet<int> _loadedCandySkins = [];
 
         /// <summary>Async task scanning all levels in the current box for their resource union.</summary>
         private Task<HashSet<string>> boxResourceScanTask;
