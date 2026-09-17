@@ -810,7 +810,7 @@ namespace CutTheRopeDX.GameMain
         /// <param name="by">World-space Y for the burst.</param>
         private void SpawnCandyBreakParticles(float bx, float by)
         {
-            int selectedCandySkin = Preferences.GetIntForKey("PREFS_SELECTED_CANDY");
+            int selectedCandySkin = ((CTRRootController)Application.SharedRootController()).GetEffectiveCandySkin();
             string candyResource = CandySkinHelper.GetCandyResource(selectedCandySkin);
             Image image2 = Image.Image_createWithResID(candyResource);
             image2.DoRestoreCutTransparency();
