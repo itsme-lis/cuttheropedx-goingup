@@ -15,13 +15,22 @@ namespace CutTheRopeDX.GameMain
         /// <inheritdoc />
         public override void Show()
         {
+            CTRRootController cTRRootController = (CTRRootController)Application.SharedRootController();
+            XElement map = cTRRootController.GetMap();
+
+            // Detection and any load-on-demand resources must happen before any level object gets
+            // created below - InitializeCandyObjects() reads the effective candy skin at
+            // construction time, and unlike the background TileMap, a candy body/animation stack
+            // cannot simply be rebuilt afterward without risking a duplicate.
+            cTRRootController.DetectLevelThemeOverride(map);
+            cTRRootController.LoadEffectiveThemeBackground(Application.SharedResourceMgr());
+            cTRRootController.DetectLevelCandySkinOverride(map);
+            // cTRRootController.LoadEffectiveCandySkin(Application.SharedResourceMgr());
+
             // Initialize game state and load level data
             InitializeGameState();
             InitializeCandyObjects();
             InitializeHUDStars();
-
-            CTRRootController cTRRootController = (CTRRootController)Application.SharedRootController();
-            XElement map = cTRRootController.GetMap();
 
             float mapScale = 3f;
             float mapOffsetY = 0f;
