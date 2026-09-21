@@ -168,6 +168,20 @@ namespace CutTheRopeDX.GameMain
             Text fanworkMembers = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_MEMBERS"), containerWidth, scale);
             _ = vBox.AddChild(fanworkMembers);
 
+            // Going UP contest credit section
+
+            Text fanworkEvent = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT"), containerWidth, scale);
+            _ = vBox.AddChild(fanworkEvent);
+
+            Text fanworkEventDescription = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT_DESCRIPTION"), containerWidth, scale);
+            _ = vBox.AddChild(fanworkEventDescription);
+
+            Text fanworkEventContestant = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT_CONTESTANT"), containerWidth, scale);
+            _ = vBox.AddChild(fanworkEventContestant);
+
+            Text fanworkEventContestantLevels = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT_CONTESTANT_LEVELS"), containerWidth, scale);
+            _ = vBox.AddChild(fanworkEventContestantLevels);
+
             // Original Zeptolab credit section
 
             Image ZeptolabLogo = Image.Image_createWithResIDQuad(Resources.Img.MenuLogo, 1);
