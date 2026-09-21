@@ -1,4 +1,4 @@
-# Cut the Rope: DX
+# Cut the Rope: DX - Going UP!
 
 <p align="center">
   <img alt="Logo of Cut the Rope: DX" src="./images/CutTheRopeDXLogo.svg"/>
