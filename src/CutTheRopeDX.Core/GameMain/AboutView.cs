@@ -182,7 +182,7 @@ namespace CutTheRopeDX.GameMain
             Text fanworkEventContestantLevels = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT_CONTESTANT_LEVELS"), containerWidth, scale);
             _ = vBox.AddChild(fanworkEventContestantLevels);
 
-            Text fanworkEventContestantLevels = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT_MUSIC"), containerWidth, scale);
+            Text fanworkEventContestantMusic = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT_MUSIC"), containerWidth, scale);
 			_ = vBox.AddChild(fanworkEventContestantLevels);
 
             // Original Zeptolab credit section
