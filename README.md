@@ -30,26 +30,26 @@ The DX logo is designed by Bingies24 and darealmrcatz.
 
 ## Contestants Level List
 
-Level 1 - Reach to the Top! by BurgerDude
-Level 2 - What an Extreme by Samir_2ac
-Level 3 - No ropes?!?! No bubbles?!?! No gravity button?!?! by Карапет
-Level 4 - Sweet-syphus Much? by Agent Zero
-Level 5 - Thrown Aside by koxoo
-Level 6 - Tower That Up! by TetenAnimationz19742
-Level 7 - Go up! by 6danieltest
-Level 8 - Artificial Ascent by popcow
-Level 9 - The (Almost) Everything Tower by blumburt
-Level 10 - Climbing Up by Matheus
-Level 11 - Elevator of Pain by It's Me, Lis!
-Level 12 - Kaizo Medium by Bro Nom
-Level 13 - Hellevator by Hitspace
-Level 14 - Bathhouse Tower by Crutter_Botch
-Level 15 - Heaven Wasn't Painfull Enough... by Limeapple 
-Level 16 - Dis candy, goin' up! by Milkas
-Level 17 - The Rise and Fall by Matheus Lopes
-Level 18 - sunrise by binnyy7
-Level 19 - Mechanic Ocean by SwordJhon
-Level 20 - Forbidden Bounce by DarkTheCreature
+- Level 1 - Reach to the Top! by BurgerDude
+- Level 2 - What an Extreme by Samir_2ac
+- Level 3 - No ropes?!?! No bubbles?!?! No gravity button?!?! by Карапет
+- Level 4 - Sweet-syphus Much? by Agent Zero
+- Level 5 - Thrown Aside by koxoo
+- Level 6 - Tower That Up! by TetenAnimationz19742
+- Level 7 - Go up! by 6danieltest
+- Level 8 - Artificial Ascent by popcow
+- Level 9 - The (Almost) Everything Tower by blumburt
+- Level 10 - Climbing Up by Matheus
+- Level 11 - Elevator of Pain by It's Me, Lis!
+- Level 12 - Kaizo Medium by Bro Nom
+- Level 13 - Hellevator by Hitspace
+- Level 14 - Bathhouse Tower by Crutter_Botch
+- Level 15 - Heaven Wasn't Painfull Enough... by Limeapple 
+- Level 16 - Dis candy, goin' up! by Milkas
+- Level 17 - The Rise and Fall by Matheus Lopes
+- Level 18 - sunrise by binnyy7
+- Level 19 - Mechanic Ocean by SwordJhon
+- Level 20 - Forbidden Bounce by DarkTheCreature
 
 ## Download
 
