@@ -10,6 +10,8 @@ _Cut the Rope: DX (Decompiled Extra)_ is a fan-made enhancement of the PC versio
 
 The game's source code is decompiled from the PC version, which serves as the foundation for development and feature expansion.
 
+Going UP! Theme Is A 2026 Community Contest Moderate By aidrum To Create A Level With Going Up Theme.
+
 This project is a part of the [_Cut the Rope Home_](https://ctrhome.github.io/fan-projects/) fan project, and is currently led by [yell0wsuit](https://github.com/yell0wsuit), with help from [contributors](https://github.com/yell0wsuit/cuttherope-dx/graphs/contributors).
 
 The DX logo is designed by Bingies24 and darealmrcatz.
@@ -24,7 +26,7 @@ The DX logo is designed by Bingies24 and darealmrcatz.
 
 ## Download
 
-Download the latest release from the [Releases page](https://github.com/yell0wsuit/cuttherope-dx/releases).
+Download the latest release from the [Releases page](https://github.com/itsme-lis/cuttheropedx-goingup/releases/tag/Releases).
 
 ## Features
 
@@ -33,3 +35,8 @@ Download the latest release from the [Releases page](https://github.com/yell0wsu
 - Custom Music Theme
 - Contestant Levels Credits
 - Other Going UP! Theme
+
+## Patches
+
+- Level 10 & Level 20 Instant Camera Transition
+- Fixing Level 20 Spam SFX
