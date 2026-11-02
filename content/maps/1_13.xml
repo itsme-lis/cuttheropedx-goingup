@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="853" height="960" levelName="Hellevator by Hitspace" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="17" />
+        <map gridSize="32" width="853" height="960" levelName="Hellevator" levelCreator="by Hitspace" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="17" candySkin="23" />
     </layer>
  
     <layer name="Objects">

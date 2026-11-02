@@ -1,8 +1,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="960" levelName="The (Almost) Everything Tower by blumburt" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="9" />
+        <map gridSize="32" width="320" height="960" levelName="The (Almost) Everything Tower" levelCreator="by blumburt" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="9" candySkin="12" />
     </layer>
  
     <layer name="Objects">

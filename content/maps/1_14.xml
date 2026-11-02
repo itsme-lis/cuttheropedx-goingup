@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="960" levelName="Bathhouse Tower by Crutter_Botch" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" water="495" waterSpeed="0" themeBox="14" />
+        <map gridSize="32" width="320" height="960" levelName="Bathhouse Tower" levelCreator="by Crutter_Botch" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" water="495" waterSpeed="0" themeBox="14" candySkin="8" />
     </layer>
  
     <layer name="Objects">

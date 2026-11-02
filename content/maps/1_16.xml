@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="960" levelName="Dis candy, goin' up! by Milkas" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="8" />
+        <map gridSize="32" width="320" height="960" levelName="Dis candy, goin' up!" levelCreator="by Milkas" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="8" candySkin="43" />
     </layer>
  
     <layer name="Objects">

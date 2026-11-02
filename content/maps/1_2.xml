@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="960" levelName="What an Extreme by Samir_2ac" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="8" />
+        <map gridSize="32" width="320" height="960" levelName="What an Extreme" levelCreator="by Samir_2ac" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="8" candySkin="47" />
     </layer>
  
     <layer name="Objects">

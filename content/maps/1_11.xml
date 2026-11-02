@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="853" height="2400" levelName="Elevator of Pain by It's Me, Lis!" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="true" nightLevel="false" themeBox="13" />
+        <map gridSize="32" width="853" height="2400" levelName="Elevator of Pain" levelCreator="by It's Me, Lis!" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="true" nightLevel="false" themeBox="13" candySkin="4" />
     </layer>
  
     <layer name="Objects">

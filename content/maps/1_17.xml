@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="960" levelName="The Rise and Fall by Matheus Lopes" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="2" />
+        <map gridSize="32" width="320" height="960" levelName="The Rise and Fall" levelCreator="by Matheus Lopes" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="2" candySkin="50" />
     </layer>
  
     <layer name="Objects">

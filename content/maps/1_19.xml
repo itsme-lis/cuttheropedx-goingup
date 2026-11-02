@@ -6,8 +6,8 @@
 <- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <map>
     <layer name="settings">
-        <map width="840" height="1440" levelName="Mechanic Ocean by SwordJhon" />
-        <gameDesign ropePhysicsSpeed="1" useMobilePhysics="true" nightLevel="true" water="1200" themeBox="16" />
+        <map width="840" height="1440" levelName="Mechanic Ocean" levelCreator="by SwordJhon" />
+        <gameDesign ropePhysicsSpeed="1" useMobilePhysics="true" nightLevel="true" water="1200" themeBox="16" candySkin="48" />
     </layer>
     <layer name="text">
         <tutorialText x="315" y="1215" locale="en" text="Mechanic Ocean" width="160" />

@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="480" levelName="Kaizo Medium by Bro Nom" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="17" />
+        <map gridSize="32" width="320" height="480" levelName="Kaizo Medium" levelCreator="by Bro Nom" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="17" candySkin="10" />
     </layer>
  
     <layer name="Objects">

@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="960" levelName="Artificial Ascent by popcow" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="3" />
+        <map gridSize="32" width="320" height="960" levelName="Artificial Ascent" levelCreator="by popcow" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="3" candySkin="20" />
     </layer>
  
     <layer name="Objects">

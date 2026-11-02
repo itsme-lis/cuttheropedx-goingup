@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="960" levelName="sunrise by binnyy7" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="true" themeBox="16" />
+        <map gridSize="32" width="320" height="960" levelName="sunrise" levelCreator="by binnyy7" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="true" themeBox="16" candySkin="6" />
     </layer>
  
     <layer name="Objects">

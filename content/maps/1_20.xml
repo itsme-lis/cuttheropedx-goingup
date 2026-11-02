@@ -8,12 +8,12 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="853" height="2880" levelName="Forbidden Bounce by DarkTheCreature" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="6" />
+        <map gridSize="32" width="853" height="2880" levelName="Forbidden Bounce" levelCreator="by DarkTheCreature" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="6" candySkin="32" />
     </layer>
  
     <layer name="Objects">
-	<tutorialText x="346" y="207" locale="en" text="Strongly recommended to play with SFX turned OFF" width="160" />
+	<tutorialText x="346" y="207" locale="en" text="Spam SFX Has Been Turned Off, Safe To Play" width="160" />
 	<star x="800" y="700" timeout="-1" path="0,-10734" moveSpeed="100" />
 	<star x="3550" y="3650" timeout="-1" path="-9999,-9999" moveSpeed="130" />
 	<star x="7750" y="150" timeout="-1" path="-9999,0" moveSpeed="100" />

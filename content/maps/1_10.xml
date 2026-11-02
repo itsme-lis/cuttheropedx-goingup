@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="5300" levelName="Climbing Up by Matheus" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+        <map gridSize="32" width="320" height="5300" levelName="Climbing Up" levelCreator="by Matheus" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" candySkin="29" />
     </layer>
  
     <layer name="Objects">

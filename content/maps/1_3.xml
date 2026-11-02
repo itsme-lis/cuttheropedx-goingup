@@ -1,7 +1,7 @@
 <map>
 <layer name="settings">
-<map gridSize="32" width="320" height="480" levelName="No ropes?!?! No bubbles?!?! No gravity button?!?! by karapet" />
-<gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="12" />
+<map gridSize="32" width="320" height="480" levelName="No ropes?!?! No bubbles?!?! No gravity button?!?!" levelCreator="by karapet" />
+<gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="12" candySkin="5" />
 </layer>
 <layer name="Objects">
 <target x="159" y="27" />

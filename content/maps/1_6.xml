@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="480" levelName="Tower That Up! by TetenAnimationz19742" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="6" />
+        <map gridSize="32" width="320" height="480" levelName="Tower That Up!" levelCreator="by TetenAnimationz19742" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="6" candySkin="2" />
     </layer>
  
     <layer name="Objects">

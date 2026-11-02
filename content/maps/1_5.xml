@@ -8,8 +8,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="960" levelName="Thrown Aside by koxoo" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="4" />
+        <map gridSize="32" width="320" height="960" levelName="Thrown Aside" levelCreator="by koxoo" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="4" candySkin="3" />
     </layer>
  
     <layer name="Objects">

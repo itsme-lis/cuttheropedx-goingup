@@ -3,8 +3,8 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="853" height="960" levelName="Heaven Wasn't Painfull Enough... by Limeapple" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="5" />
+        <map gridSize="32" width="853" height="960" levelName="Heaven Wasn't Painfull Enough..." levelCreator="by Limeapple" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="5" candySkin="33" />
     </layer>
  
     <layer name="Objects">
