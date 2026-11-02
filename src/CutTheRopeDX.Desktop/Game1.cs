@@ -213,6 +213,11 @@ namespace CutTheRopeDX
                 Global.ScreenSizeManager.WindowWidth,
                 Global.ScreenSizeManager.WindowHeight,
                 GetSystemLanguage());
+				// Always start maximized (windowed). Fullscreen users keep their fullscreen preference.
+				if (!isFullScreen)
+				{
+					_ = WindowMaximizer.TryMaximize(Window.Handle);
+				}
         }
 
         /// <inheritdoc />

@@ -283,7 +283,13 @@ namespace CutTheRopeDX.Framework.Visual
             /// <summary>
             /// Flash XML instant transition.
             /// </summary>
-            FRAME_TRANSITION_FLASH_IMMEDIATE
+            FRAME_TRANSITION_FLASH_IMMEDIATE,
+
+            /// <summary>
+            /// Ease-in-out-back interpolation: pulls back slightly, overshoots the target, then settles.
+            /// Interpolated through the absolute (factor-based) path, so the overshoot is preserved.
+            /// </summary>
+            FRAME_TRANSITION_EASE_IN_OUT_BACK
         }
     }
 }

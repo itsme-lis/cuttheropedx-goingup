@@ -231,6 +231,7 @@ namespace CutTheRopeDX.GameMain
         /// <inheritdoc />
         public override void Hide()
         {
+			CTRSoundMgr.SfxMuted = false;
             gravityState.RemoveButtonsFrom(this);
             if (waterLayer != null)
             {
@@ -314,6 +315,9 @@ namespace CutTheRopeDX.GameMain
             ApplyCameraFit(ScreenPresentation.Instance.Snapshot);
         }
 
+        /// <summary>Unscaled extra height the creator line adds below the label's bottom edge.</summary>
+        private float levelLabelExtraHeight;
+
         /// <summary>
         /// Sizes and positions the level-name label for the current viewport.
         /// </summary>
@@ -339,7 +343,8 @@ namespace CutTheRopeDX.GameMain
             bool isChinese = LanguageHelper.IsCurrentAny(Language.LANGZH, Language.LANGZHTW);
             float bottomInset = isChinese ? LevelLabelInsetYCJK : LevelLabelInsetY;
             levelLabel.y = VisibleBounds.h
-                + LayoutMath.CornerAnchoredOffset(-bottomInset, levelLabel.height, hudScale, farEdge: true);
+                + LayoutMath.CornerAnchoredOffset(-(bottomInset - LevelLabelNudgeDown), levelLabel.height, hudScale, farEdge: true)
+                - (levelLabelExtraHeight * hudScale);
         }
 
         /// <summary>
@@ -1248,6 +1253,9 @@ namespace CutTheRopeDX.GameMain
         /// Optional string to load as a name for the level.
         /// </summary>
         public string levelName;
+
+        /// <summary>Level author's display name, from the level's optional <c>levelCreator</c> attribute.</summary>
+        public string levelCreator;
 
         /// <summary>
         /// Count of tummy teaser interactions completed in the scene.

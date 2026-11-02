@@ -85,7 +85,101 @@ namespace CutTheRopeDX.GameMain
         /// </returns>
         private CandyBody CandyBodyForBubbleOrNull(GameObject bubbleObj)
         {
+<<<<<<< Updated upstream
             if (bubbleObj == null)
+=======
+            // Effective candy skin: this level's own candySkin override if set, otherwise the
+            // player's selected preference (0-50 for candy_01 to candy_51).
+            int selectedCandySkin = ((CTRRootController)Application.SharedRootController()).GetEffectiveCandySkin();
+            string candyResource = CandySkinHelper.GetCandyResource(selectedCandySkin);
+
+            // Initialize main candy
+            GameObject candyObj = GameObject.GameObject_createWithResIDQuad(candyResource, 0);
+            candyObj.DoRestoreCutTransparency();
+            candyObj.anchor = 18;
+            candyObj.bb = GetCandyBoundingBox();
+            candyObj.passTransformationsToChilds = false;
+            candyObj.scaleX = candyObj.scaleY = 0.71f;
+
+            // Candy reappear animation (timeline 2): scale 0→0.71 + transparent→opaque over 0.1s.
+            // Mirrors iOS: played by Teleport() after candy exits a bamboo tube.
+            Timeline candyReappearTimeline = new Timeline().InitWithMaxKeyFramesOnTrack(2);
+            candyReappearTimeline.AddKeyFrame(KeyFrame.MakeScale(0f, 0f, KeyFrame.TransitionType.FRAME_TRANSITION_IMMEDIATE, 0f));
+            candyReappearTimeline.AddKeyFrame(KeyFrame.MakeScale(candyObj.scaleX, candyObj.scaleY, KeyFrame.TransitionType.FRAME_TRANSITION_LINEAR, 0.1f));
+            candyReappearTimeline.AddKeyFrame(KeyFrame.MakeColor(RGBAColor.transparentRGBA, KeyFrame.TransitionType.FRAME_TRANSITION_IMMEDIATE, 0f));
+            candyReappearTimeline.AddKeyFrame(KeyFrame.MakeColor(RGBAColor.solidOpaqueRGBA, KeyFrame.TransitionType.FRAME_TRANSITION_LINEAR, 0.1f));
+            candyReappearTimeline.delegateTimelineDelegate = this;
+            candyObj.AddTimelinewithID(candyReappearTimeline, 2);
+
+            // Add candy main visual component
+            GameObject candyMainObj = GameObject.GameObject_createWithResIDQuad(candyResource, 1);
+            candyMainObj.DoRestoreCutTransparency();
+            candyMainObj.anchor = candyMainObj.parentAnchor = 18;
+            _ = candyObj.AddChild(candyMainObj);
+            candyMainObj.scaleX = candyMainObj.scaleY = 0.71f;
+
+            // Add candy top visual component
+            GameObject candyTopObj = GameObject.GameObject_createWithResIDQuad(candyResource, 2);
+            candyTopObj.DoRestoreCutTransparency();
+            candyTopObj.anchor = candyTopObj.parentAnchor = 18;
+            _ = candyObj.AddChild(candyTopObj);
+            candyTopObj.scaleX = candyTopObj.scaleY = 0.71f;
+
+            // Setup candy blink animation (highlight_start=2, layer_1-8=3-10, highlight_end=1)
+            Animation candyBlinkAnim = Animation.Animation_createWithResID(Resources.Img.ObjCandyFx);
+            candyBlinkAnim.AddAnimationWithIDDelayLoopFirstLast(0, 0.07f, Timeline.LoopType.TIMELINE_NO_LOOP, 0, 9);
+            candyBlinkAnim.AddAnimationWithIDDelayLoopCountSequence(1, 0.3f, Timeline.LoopType.TIMELINE_NO_LOOP, 2, 10, [10]);
+            Timeline blinkColorTimeline = candyBlinkAnim.GetTimeline(1);
+            blinkColorTimeline.AddKeyFrame(KeyFrame.MakeColor(RGBAColor.solidOpaqueRGBA, KeyFrame.TransitionType.FRAME_TRANSITION_LINEAR, 0));
+            blinkColorTimeline.AddKeyFrame(KeyFrame.MakeColor(RGBAColor.transparentRGBA, KeyFrame.TransitionType.FRAME_TRANSITION_LINEAR, 0.2f));
+            candyBlinkAnim.visible = false;
+            candyBlinkAnim.anchor = candyBlinkAnim.parentAnchor = 18;
+            candyBlinkAnim.scaleX = candyBlinkAnim.scaleY = 0.71f;
+            _ = candyObj.AddChild(candyBlinkAnim);
+
+            // Bubble overlays (both start hidden): normal bubble first, then the ghost-form bubble,
+            // so draw order matches the legacy primary candy where the ghost bubble was attached last.
+            Animation candyBubbleAnim = BubbleAnimationFactory.CreateBubble();
+            _ = candyObj.AddChild(candyBubbleAnim);
+
+            CandyInGhostBubbleAnimation candyGhostBubbleAnim = BubbleAnimationFactory.CreateGhostBubble();
+            _ = candyObj.AddChild(candyGhostBubbleAnim);
+
+            return (candyObj, candyMainObj, candyTopObj, candyBlinkAnim, candyBubbleAnim, candyGhostBubbleAnim);
+        }
+
+        /// <summary>
+        /// Initializes candy and constraint point objects
+        /// Sets up the main candy, candy variants (left/right), and related animations
+        /// </summary>
+        private void InitializeCandyObjects()
+        {
+            candyPairPrevDistance.Clear();
+
+            // Initialize constraint points for ropes
+            ConstraintedPoint starPoint = new();
+            starPoint.SetWeight(1f);
+
+            (GameObject candyObj, GameObject candyMainObj, GameObject candyTopObj, Animation candyBlinkAnim, Animation primaryBubble, CandyInGhostBubbleAnimation primaryGhostBubble) = CreateCandyVisual();
+
+            // Register the primary candy as candies[0] so multi-candy logic and legacy
+            // single-candy code share the same objects. Its candyNumber is unassigned here;
+            // the first <candy> element claims it and takes the key from XML.
+            candies.Clear();
+            primaryCandyClaimed = false;
+
+            CandyBody primaryBody = new(
+                starPoint,
+                CandyBodyRole.Whole,
+                candyObj,
+                candyMainObj,
+                candyTopObj,
+                candyBlinkAnim,
+                primaryBubble,
+                primaryGhostBubble);
+
+            candies.Add(new CandyContext(primaryBody)
+>>>>>>> Stashed changes
             {
                 return null;
             }
@@ -106,8 +200,43 @@ namespace CutTheRopeDX.GameMain
         /// </summary>
         internal bool IsBubbleClaimedByCandy(GameObject bubbleObj)
         {
+<<<<<<< Updated upstream
             return CandyBodyForBubbleOrNull(bubbleObj) != null
                 || parkedGhostBubble?.Bubble == bubbleObj;
+=======
+            ConstraintedPoint point = new();
+            point.SetWeight(1f);
+            point.pos.X = x;
+            point.pos.Y = y;
+            point.prevPos = point.pos;
+
+            int selectedCandySkin = ((CTRRootController)Application.SharedRootController()).GetEffectiveCandySkin();
+            string candyResource = CandySkinHelper.GetCandyResource(selectedCandySkin);
+            GameObject visual = GameObject.GameObject_createWithResIDQuad(
+                candyResource,
+                role == CandyBodyRole.LeftHalf ? SplitCandyLeftQuad : SplitCandyRightQuad);
+            visual.scaleX = visual.scaleY = 0.71f;
+            visual.passTransformationsToChilds = false;
+            visual.DoRestoreCutTransparency();
+            visual.anchor = 18;
+            visual.x = x;
+            visual.y = y;
+            visual.bb = GetSplitCandyBoundingBox();
+
+            // Seed the draw position from the authored one. The merge test reads where a half was
+            // last drawn, which is a frame behind its point, so on the very first frame it has to
+            // read the half's authored spot - not the origin.
+            CalculateTopLeft(visual);
+
+            // Normal bubble first, then the ghost-form bubble, matching the child order the whole
+            // candy's visual stack uses.
+            Animation bubbleAnim = BubbleAnimationFactory.CreateBubble();
+            _ = visual.AddChild(bubbleAnim);
+            CandyInGhostBubbleAnimation ghostBubbleAnim = BubbleAnimationFactory.CreateGhostBubble();
+            _ = visual.AddChild(ghostBubbleAnim);
+
+            return new CandyBody(point, role, visual, bubbleAnimation: bubbleAnim, ghostBubbleAnimation: ghostBubbleAnim);
+>>>>>>> Stashed changes
         }
 
         /// <summary>

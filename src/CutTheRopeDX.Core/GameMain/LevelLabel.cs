@@ -4,8 +4,9 @@ namespace CutTheRopeDX.GameMain
     /// Text for the in-game level label shown when a level starts.
     /// </summary>
     /// <param name="Primary">Large upper line, or <see langword="null"/> when no label should be shown.</param>
-    /// <param name="Secondary">Small lower line, or <see langword="null"/> when only the primary line applies.</param>
-    internal readonly record struct LevelLabelText(string Primary, string Secondary);
+    /// <param name="Secondary">Smaller middle line, or <see langword="null"/> when only the primary line applies.</param>
+    /// <param name="Tertiary">Smallest bottom line (the level creator), or <see langword="null"/> when absent.</param>
+    internal readonly record struct LevelLabelText(string Primary, string Secondary, string Tertiary = null);
 
     /// <summary>
     /// Decides which lines the in-game level label shows. Performs no localization lookups.
@@ -35,6 +36,22 @@ namespace CutTheRopeDX.GameMain
                 : hasName
                     ? new LevelLabelText(displayName, levelWord + " " + packAndLevelNumbers)
                     : new LevelLabelText(packAndLevelNumbers, levelWord);
+        }
+
+        /// <summary>
+        /// Builds the three-line "Going UP" label: level number, level name, level creator.
+        /// </summary>
+        /// <param name="goingUpWord">Localized prefix, such as <c>Going UP Level</c>.</param>
+        /// <param name="levelNumber">One-based level number within the pack.</param>
+        /// <param name="displayName">Resolved level name, or <see langword="null"/>/empty.</param>
+        /// <param name="creatorName">Resolved creator name, or <see langword="null"/>/empty.</param>
+        /// <returns>The lines to render.</returns>
+        public static LevelLabelText ResolveGoingUp(string goingUpWord, string levelNumber, string displayName, string creatorName)
+        {
+            return new LevelLabelText(
+                goingUpWord + " " + levelNumber,
+                string.IsNullOrWhiteSpace(displayName) ? null : displayName,
+                string.IsNullOrWhiteSpace(creatorName) ? null : creatorName);
         }
     }
 }

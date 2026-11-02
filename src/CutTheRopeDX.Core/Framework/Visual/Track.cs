@@ -422,7 +422,8 @@ namespace CutTheRopeDX.Framework.Visual
                 or KeyFrame.TransitionType.FRAME_TRANSITION_FLASH_EASE_IN_OUT
                 or KeyFrame.TransitionType.FRAME_TRANSITION_FLASH_EASE_MIRRORED
                 or KeyFrame.TransitionType.FRAME_TRANSITION_FLASH_HOLD
-                or KeyFrame.TransitionType.FRAME_TRANSITION_FLASH_IMMEDIATE;
+                or KeyFrame.TransitionType.FRAME_TRANSITION_FLASH_IMMEDIATE
+                or KeyFrame.TransitionType.FRAME_TRANSITION_EASE_IN_OUT_BACK;
         }
 
         /// <summary>
@@ -446,12 +447,19 @@ namespace CutTheRopeDX.Framework.Visual
                 KeyFrame.TransitionType.FRAME_TRANSITION_FLASH_EASE_OUT => 1f - ((1f - progress) * (1f - progress)),
                 KeyFrame.TransitionType.FRAME_TRANSITION_FLASH_EASE_IN_OUT => EvaluateFlashEaseInOut(progress),
                 KeyFrame.TransitionType.FRAME_TRANSITION_FLASH_EASE_MIRRORED => EvaluateFlashEaseMirrored(progress),
+                KeyFrame.TransitionType.FRAME_TRANSITION_EASE_IN_OUT_BACK => EvaluateEaseInOutBack(progress),
                 KeyFrame.TransitionType.FRAME_TRANSITION_LINEAR => progress,
                 KeyFrame.TransitionType.FRAME_TRANSITION_IMMEDIATE => progress,
                 KeyFrame.TransitionType.FRAME_TRANSITION_EASE_IN => progress,
                 KeyFrame.TransitionType.FRAME_TRANSITION_EASE_OUT => progress,
                 _ => progress
             };
+
+            if (transition == KeyFrame.TransitionType.FRAME_TRANSITION_EASE_IN_OUT_BACK)
+            {
+                // Back easing intentionally leaves [0, 1] (overshoot); do not clamp.
+                return factor;
+            }
 
             if (factor > 1f)
             {
@@ -463,6 +471,18 @@ namespace CutTheRopeDX.Framework.Visual
             }
 
             return factor;
+        }
+
+        /// <summary>
+        /// Penner easeInOutBack curve (c1 = 1.70158, c2 = c1 * 1.525).
+        /// </summary>
+        private static float EvaluateEaseInOutBack(float t)
+        {
+            const float c1 = 1.70158f;
+            const float c2 = c1 * 1.525f;
+            return t < 0.5f
+                ? (MathF.Pow(2f * t, 2f) * (((c2 + 1f) * 2f * t) - c2)) / 2f
+                : ((MathF.Pow((2f * t) - 2f, 2f) * (((c2 + 1f) * ((t * 2f) - 2f)) + c2)) + 2f) / 2f;
         }
 
         /// <summary>

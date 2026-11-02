@@ -106,6 +106,7 @@ namespace CutTheRopeDX.GameMain
                             offsetX = (SCREEN_WIDTH - mapWidth) / 2f;
                             cameraBounds = new CTRRectangle(offsetX, 0f, mapWidth, mapHeight);
                             levelName = item2.Attribute("levelName")?.Value ?? null;
+                            levelCreator = item2.Attribute("levelCreator")?.Value ?? null;
 
                             if (PackConfig.GetEarthBg(rc.GetEffectiveThemePack()))
                             {

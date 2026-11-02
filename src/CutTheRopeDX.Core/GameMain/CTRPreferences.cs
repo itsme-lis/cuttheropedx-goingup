@@ -649,7 +649,11 @@ namespace CutTheRopeDX.GameMain
             SetIntForKey(0, "PREFS_SOCKS_USED", true);
             SetIntForKey(0, "PREFS_SELECTED_CANDY", true);
             SetIntForKey(0, "PREFS_SELECTED_ROPE", true);
+<<<<<<< Updated upstream
             SetIntForKey(1, "PREFS_SELECTED_OMNOM", true);
+=======
+            SetIntForKey(2, "PREFS_SELECTED_OMNOM", true);
+>>>>>>> Stashed changes
             SetIntForKey(0, "PREFS_SELECTED_TRACE", true);
             SetBooleanForKey(false, "PREFS_CANDY_WAS_CHANGED", true);
             SetBooleanForKey(true, "PREFS_GAME_CENTER_ENABLED", true);

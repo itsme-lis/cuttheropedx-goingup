@@ -168,6 +168,7 @@ namespace CutTheRopeDX.GameMain
             Text fanworkMembers = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_MEMBERS"), containerWidth, scale);
             _ = vBox.AddChild(fanworkMembers);
 
+<<<<<<< Updated upstream
             // Going UP contest credit section
 
             Text fanworkEvent = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT"), containerWidth, scale);
@@ -183,6 +184,23 @@ namespace CutTheRopeDX.GameMain
             _ = vBox.AddChild(fanworkEventContestantLevels);
 
             Text fanworkEventMusic = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT_MUSIC"), containerWidth, scale);
+=======
+			// Going UP contest credit section
+
+			Text fanworkEvent = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT"), containerWidth, scale);
+			_ = vBox.AddChild(fanworkEvent);
+
+			Text fanworkEventDescription = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT_DESCRIPTION"), containerWidth, scale);
+			_ = vBox.AddChild(fanworkEventDescription);
+
+			Text fanworkEventContestant = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT_CONTESTANT"), containerWidth, scale);
+			_ = vBox.AddChild(fanworkEventContestant);
+
+			Text fanworkEventContestantLevels = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT_CONTESTANT_LEVELS"), containerWidth, scale);
+			_ = vBox.AddChild(fanworkEventContestantLevels);
+			
+			Text fanworkEventMusic = CreateCenteredTextBlock(Application.GetString("ABOUT_FANWORK_EVENT_MUSIC"), containerWidth, scale);
+>>>>>>> Stashed changes
 			_ = vBox.AddChild(fanworkEventMusic);
 
             // Original Zeptolab credit section

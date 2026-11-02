@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using CutTheRopeDX.Framework;
 using CutTheRopeDX.Framework.Core;
 using CutTheRopeDX.Framework.Media;
@@ -10,12 +11,36 @@ namespace CutTheRopeDX.GameMain
     /// </summary>
     internal sealed class CTRSoundMgr : FrameworkTypes
     {
+		public static bool SfxMuted { get; set; }
+		
+		private static readonly HashSet<string> s_mutedExceptions =
+		[
+			Resources.Snd.MonsterGreeting,
+            Resources.Snd.MonsterSad,
+            Resources.Snd.MonsterChewing,
+            Resources.Snd.Star1,
+            Resources.Snd.Star2,
+            Resources.Snd.Star3,
+            Resources.Snd.Teleport,
+            Resources.Snd.TeleportXmas,
+            Resources.Snd.CandyBreak,
+            Resources.Snd.MonsterExcited,
+            Resources.Snd.MonsterOpen,
+            Resources.Snd.MonsterClose
+		];
+		
+		private static bool s_omNomExceptionActive;
+		
         /// <summary>
         /// Plays a sound effect identified by its resource name.
         /// </summary>
         /// <param name="soundResourceName">The sound resource name to play.</param>
         public static void PlaySound(string soundResourceName)
         {
+			if (SfxMuted && !s_omNomExceptionActive && !s_mutedExceptions.Contains(soundResourceName ?? string.Empty))
+			{
+				return;
+			}
             if (!string.IsNullOrWhiteSpace(soundResourceName)
                 && Preferences.GetBooleanForKey("SOUND_ON"))
             {
@@ -34,8 +59,10 @@ namespace CutTheRopeDX.GameMain
             {
                 return;
             }
-
+			
+			s_omNomExceptionActive = s_mutedExceptions.Contains(soundResourceName);
             PlaySound(OmNomSoundResolver.ResolveSelectedSkinSoundResource(soundResourceName));
+            s_omNomExceptionActive = false;
         }
 
         /// <summary>
@@ -51,7 +78,9 @@ namespace CutTheRopeDX.GameMain
                 return;
             }
 
+            s_omNomExceptionActive = s_mutedExceptions.Contains(soundResourceName);
             PlaySound(OmNomSoundResolver.ResolveSoundResource(skin, soundResourceName));
+            s_omNomExceptionActive = false;
         }
 
         /// <summary>
@@ -74,7 +103,7 @@ namespace CutTheRopeDX.GameMain
         /// <returns>The looping <see cref="ISoundInstance"/>, or <see langword="null"/> if looped sounds are disabled.</returns>
         public static ISoundInstance PlaySoundLooped(string soundResourceName)
         {
-            return !s_EnableLoopedSounds || !Preferences.GetBooleanForKey("SOUND_ON")
+            return SfxMuted || !s_EnableLoopedSounds || !Preferences.GetBooleanForKey("SOUND_ON")
                 ? null
                 : Application.SharedSoundMgr().PlaySoundLooped(soundResourceName);
         }
