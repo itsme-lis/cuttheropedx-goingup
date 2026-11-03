@@ -26,10 +26,6 @@ namespace CutTheRopeDX.GameMain
             cTRRootController.DetectLevelThemeOverride(map);
             cTRRootController.LoadEffectiveThemeBackground(Application.SharedResourceMgr());
             cTRRootController.DetectLevelCandySkinOverride(map);
-<<<<<<< Updated upstream
-            // cTRRootController.LoadEffectiveCandySkin(Application.SharedResourceMgr());
-
-=======
             cTRRootController.LoadEffectiveCandySkin(Application.SharedResourceMgr());
 			
 			CTRSoundMgr.SfxMuted = LevelHasNoSfx();
@@ -38,7 +34,6 @@ namespace CutTheRopeDX.GameMain
 				CTRSoundMgr.StopLoopedSounds();
 			}
 			
->>>>>>> Stashed changes
             // Initialize game state and load level data
             InitializeGameState();
             InitializeCandyObjects();
@@ -226,7 +221,7 @@ namespace CutTheRopeDX.GameMain
 		/// <summary>
 		/// Levels (1-based, within the pack) whose opening Om Nom-to-candy camera pan is disabled.
 		/// Edit this list to add or remove levels.
-		/// <summary>
+		/// </summary>
 		private static readonly int[] LevelsWithoutIntroPan = [10, 20];
 		
 		private bool SkipIntroCameraPan()

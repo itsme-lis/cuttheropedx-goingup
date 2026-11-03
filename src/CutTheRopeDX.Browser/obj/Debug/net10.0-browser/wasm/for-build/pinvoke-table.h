@@ -3130,7 +3130,7 @@ wasm_native_to_interp_System_Private_CoreLib_System_Threading_ThreadPool_Backgro
     typedef void (*InterpEntry_T0) (int*);
 
     if (!(InterpEntry_T0)wasm_native_to_interp_ftndescs [0].func) {
-        mono_wasm_marshal_get_managed_wrapper ("System.Private.CoreLib", "System.Threading", "ThreadPool", "BackgroundJobHandler", 100680304, 0);
+        mono_wasm_marshal_get_managed_wrapper ("System.Private.CoreLib", "System.Threading", "ThreadPool", "BackgroundJobHandler", 100680308, 0);
     }
 
     ((InterpEntry_T0)wasm_native_to_interp_ftndescs [0].func) ((int*)wasm_native_to_interp_ftndescs [0].arg);
@@ -3141,7 +3141,7 @@ wasm_native_to_interp_System_Private_CoreLib_System_Diagnostics_Tracing_EventPip
     typedef void (*InterpEntry_T1) (int*, int*, int*, int*, int*, int*, int*, int*);
 
     if (!(InterpEntry_T1)wasm_native_to_interp_ftndescs [1].func) {
-        mono_wasm_marshal_get_managed_wrapper ("System.Private.CoreLib", "System.Diagnostics.Tracing", "EventPipeEventProvider", "Callback", 100700534, 7);
+        mono_wasm_marshal_get_managed_wrapper ("System.Private.CoreLib", "System.Diagnostics.Tracing", "EventPipeEventProvider", "Callback", 100700538, 7);
     }
 
     ((InterpEntry_T1)wasm_native_to_interp_ftndescs [1].func) ((int*)&arg0, (int*)&arg1, (int*)&arg2, (int*)&arg3, (int*)&arg4, (int*)&arg5, (int*)&arg6, (int*)wasm_native_to_interp_ftndescs [1].arg);
@@ -3152,7 +3152,7 @@ wasm_native_to_interp_System_Private_CoreLib_System_Globalization_CalendarData_E
     typedef void (*InterpEntry_T2) (int*, int*, int*);
 
     if (!(InterpEntry_T2)wasm_native_to_interp_ftndescs [2].func) {
-        mono_wasm_marshal_get_managed_wrapper ("System.Private.CoreLib", "System.Globalization", "CalendarData", "EnumCalendarInfoCallback", 100676774, 2);
+        mono_wasm_marshal_get_managed_wrapper ("System.Private.CoreLib", "System.Globalization", "CalendarData", "EnumCalendarInfoCallback", 100676775, 2);
     }
 
     ((InterpEntry_T2)wasm_native_to_interp_ftndescs [2].func) ((int*)&arg0, (int*)&arg1, (int*)wasm_native_to_interp_ftndescs [2].arg);
@@ -3614,16 +3614,16 @@ wasm_native_to_interp_System_Private_CoreLib_System_Threading_TimerQueue_TimerHa
     typedef void (*InterpEntry_T40) (int*);
 
     if (!(InterpEntry_T40)wasm_native_to_interp_ftndescs [40].func) {
-        mono_wasm_marshal_get_managed_wrapper ("System.Private.CoreLib", "System.Threading", "TimerQueue", "TimerHandler", 100680379, 0);
+        mono_wasm_marshal_get_managed_wrapper ("System.Private.CoreLib", "System.Threading", "TimerQueue", "TimerHandler", 100680383, 0);
     }
 
     ((InterpEntry_T40)wasm_native_to_interp_ftndescs [40].func) ((int*)wasm_native_to_interp_ftndescs [40].arg);
 }
 
 static UnmanagedExport wasm_native_to_interp_table[] = {
-    {"BackgroundJobHandler#0:System.Private.CoreLib:System.Threading:ThreadPool", 100680304, wasm_native_to_interp_System_Private_CoreLib_System_Threading_ThreadPool_BackgroundJobHandler},
-    {"Callback#7:System.Private.CoreLib:System.Diagnostics.Tracing:EventPipeEventProvider", 100700534, wasm_native_to_interp_System_Private_CoreLib_System_Diagnostics_Tracing_EventPipeEventProvider_Callback},
-    {"EnumCalendarInfoCallback#2:System.Private.CoreLib:System.Globalization:CalendarData", 100676774, wasm_native_to_interp_System_Private_CoreLib_System_Globalization_CalendarData_EnumCalendarInfoCallback},
+    {"BackgroundJobHandler#0:System.Private.CoreLib:System.Threading:ThreadPool", 100680308, wasm_native_to_interp_System_Private_CoreLib_System_Threading_ThreadPool_BackgroundJobHandler},
+    {"Callback#7:System.Private.CoreLib:System.Diagnostics.Tracing:EventPipeEventProvider", 100700538, wasm_native_to_interp_System_Private_CoreLib_System_Diagnostics_Tracing_EventPipeEventProvider_Callback},
+    {"EnumCalendarInfoCallback#2:System.Private.CoreLib:System.Globalization:CalendarData", 100676775, wasm_native_to_interp_System_Private_CoreLib_System_Globalization_CalendarData_EnumCalendarInfoCallback},
     {"GRGlGetProcProxyImplementation#2:SkiaSharp:SkiaSharp:DelegateProxies", 100663511, wasm_native_to_interp_SkiaSharp_SkiaSharp_DelegateProxies_GRGlGetProcProxyImplementation},
     {"GRVkGetProcProxyImplementation#4:SkiaSharp:SkiaSharp:DelegateProxies", 100663512, wasm_native_to_interp_SkiaSharp_SkiaSharp_DelegateProxies_GRVkGetProcProxyImplementation},
     {"GetFunctionPointer#6:System.Private.CoreLib:Internal.Runtime.InteropServices:ComponentActivator", 100663586, wasm_native_to_interp_System_Private_CoreLib_Internal_Runtime_InteropServices_ComponentActivator_GetFunctionPointer},
@@ -3661,5 +3661,5 @@ static UnmanagedExport wasm_native_to_interp_table[] = {
     {"SKManagedWStreamFlushProxyImplementation#2:SkiaSharp:SkiaSharp:DelegateProxies", 100663541, wasm_native_to_interp_SkiaSharp_SkiaSharp_DelegateProxies_SKManagedWStreamFlushProxyImplementation},
     {"SKManagedWStreamWriteProxyImplementation#4:SkiaSharp:SkiaSharp:DelegateProxies", 100663542, wasm_native_to_interp_SkiaSharp_SkiaSharp_DelegateProxies_SKManagedWStreamWriteProxyImplementation},
     {"SKSurfaceRasterReleaseProxyImplementation#2:SkiaSharp:SkiaSharp:DelegateProxies", 100663543, wasm_native_to_interp_SkiaSharp_SkiaSharp_DelegateProxies_SKSurfaceRasterReleaseProxyImplementation},
-    {"TimerHandler#0:System.Private.CoreLib:System.Threading:TimerQueue", 100680379, wasm_native_to_interp_System_Private_CoreLib_System_Threading_TimerQueue_TimerHandler}
+    {"TimerHandler#0:System.Private.CoreLib:System.Threading:TimerQueue", 100680383, wasm_native_to_interp_System_Private_CoreLib_System_Threading_TimerQueue_TimerHandler}
 };

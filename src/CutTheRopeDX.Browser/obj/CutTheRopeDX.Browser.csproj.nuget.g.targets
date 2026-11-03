@@ -2,6 +2,6 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\4.151.1\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\4.151.1\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.targets')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.11\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.11\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.14\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.14\build\Microsoft.NET.Sdk.WebAssembly.Pack.targets')" />
   </ImportGroup>
 </Project>

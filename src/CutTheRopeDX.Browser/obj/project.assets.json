@@ -2,13 +2,13 @@
   "version": 4,
   "targets": {
     "net10.0-browser": {
-      "Microsoft.NET.ILLink.Tasks/10.0.11": {
+      "Microsoft.NET.ILLink.Tasks/10.0.14": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.11": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.14": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -105,13 +105,13 @@
       }
     },
     "net10.0-browser/browser-wasm": {
-      "Microsoft.NET.ILLink.Tasks/10.0.11": {
+      "Microsoft.NET.ILLink.Tasks/10.0.14": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.11": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.14": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -177,10 +177,10 @@
     }
   },
   "libraries": {
-    "Microsoft.NET.ILLink.Tasks/10.0.11": {
-      "sha512": "IBf7lbovvjGWVWXZX5cJ/cO0WXbId0Zq4BuSeT94mGZuOAP66oMeH9PTBZ9Jpp3Jb6jtK0qm/NyUbPRo1gC/wQ==",
+    "Microsoft.NET.ILLink.Tasks/10.0.14": {
+      "sha512": "YlTamXppEQls6DYWt7RdUuwWDb0lyw/vXCaGeQpLCpsLmfwGuCkOz/vIGgMTV7ECsJcavkCOkxZXv9s8rdAHkQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/10.0.11",
+      "path": "microsoft.net.illink.tasks/10.0.14",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -193,7 +193,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.10.0.11.nupkg.sha512",
+        "microsoft.net.illink.tasks.10.0.14.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net/ILLink.Tasks.deps.json",
         "tools/net/ILLink.Tasks.dll",
@@ -227,10 +227,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.11": {
-      "sha512": "vI5/681Ld3dnYch2wCH+8cDc3PXIgfaJhjCHTUmCtm2tu92T71iY3shZHM3BeLPDFv9G7Nq/gS5hrlghPG+MXg==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.14": {
+      "sha512": "sQ9G+FT1O85PE5bqT0YDxWdjTMr8emY+GD8nFC0eRm4ZvwCl2/o0fhoCKKRXsy7BuiqIBzBCiRH3/drU0aWD0w==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/10.0.11",
+      "path": "microsoft.net.sdk.webassembly.pack/10.0.14",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -260,7 +260,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
         "build/browser.runtimeconfig.template.json",
-        "microsoft.net.sdk.webassembly.pack.10.0.11.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.10.0.14.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net10.0/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net10.0/Microsoft.NET.WebAssembly.Webcil.dll",
@@ -460,8 +460,8 @@
   "projectFileDependencyGroups": {
     "net10.0-browser": [
       "CutTheRopeDX.Core >= 1.0.0",
-      "Microsoft.NET.ILLink.Tasks >= 10.0.11",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 10.0.11",
+      "Microsoft.NET.ILLink.Tasks >= 10.0.14",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 10.0.14",
       "SkiaSharp >= 4.151.1",
       "SkiaSharp.NativeAssets.WebAssembly >= 4.151.1"
     ]
@@ -481,8 +481,7 @@
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
         "C:\\Users\\louis\\Documents\\GitHub\\cuttheropedx-goingup\\NuGet.Config",
-        "C:\\Users\\louis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\louis\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0-browser"
@@ -522,13 +521,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[10.0.11, )",
+            "version": "[10.0.14, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[10.0.11, )",
+            "version": "[10.0.14, )",
             "autoReferenced": true
           },
           "SkiaSharp": {
@@ -579,7 +578,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

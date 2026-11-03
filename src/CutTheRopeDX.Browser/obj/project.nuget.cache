@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RgZjo3W2bP0=",
+  "dgSpecHash": "EcayJZZidE8=",
   "success": true,
   "projectFilePath": "C:\\Users\\louis\\Documents\\GitHub\\cuttheropedx-goingup\\src\\CutTheRopeDX.Browser\\CutTheRopeDX.Browser.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\louis\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.11\\microsoft.net.illink.tasks.10.0.11.nupkg.sha512",
-    "C:\\Users\\louis\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\10.0.11\\microsoft.net.sdk.webassembly.pack.10.0.11.nupkg.sha512",
+    "C:\\Users\\louis\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.14\\microsoft.net.illink.tasks.10.0.14.nupkg.sha512",
+    "C:\\Users\\louis\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\10.0.14\\microsoft.net.sdk.webassembly.pack.10.0.14.nupkg.sha512",
     "C:\\Users\\louis\\.nuget\\packages\\skiasharp\\4.151.1\\skiasharp.4.151.1.nupkg.sha512",
     "C:\\Users\\louis\\.nuget\\packages\\skiasharp.nativeassets.macos\\4.151.1\\skiasharp.nativeassets.macos.4.151.1.nupkg.sha512",
     "C:\\Users\\louis\\.nuget\\packages\\skiasharp.nativeassets.webassembly\\4.151.1\\skiasharp.nativeassets.webassembly.4.151.1.nupkg.sha512",

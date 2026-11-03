@@ -14,11 +14,11 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\4.151.1\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\4.151.1\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.11\build\Microsoft.NET.Sdk.WebAssembly.Pack.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.11\build\Microsoft.NET.Sdk.WebAssembly.Pack.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\10.0.11\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\10.0.11\build\Microsoft.NET.ILLink.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.14\build\Microsoft.NET.Sdk.WebAssembly.Pack.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\10.0.14\build\Microsoft.NET.Sdk.WebAssembly.Pack.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\10.0.14\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\10.0.14\build\Microsoft.NET.ILLink.Tasks.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_NET_Sdk_WebAssembly_Pack Condition=" '$(PkgMicrosoft_NET_Sdk_WebAssembly_Pack)' == '' ">C:\Users\louis\.nuget\packages\microsoft.net.sdk.webassembly.pack\10.0.11</PkgMicrosoft_NET_Sdk_WebAssembly_Pack>
-    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\louis\.nuget\packages\microsoft.net.illink.tasks\10.0.11</PkgMicrosoft_NET_ILLink_Tasks>
+    <PkgMicrosoft_NET_Sdk_WebAssembly_Pack Condition=" '$(PkgMicrosoft_NET_Sdk_WebAssembly_Pack)' == '' ">C:\Users\louis\.nuget\packages\microsoft.net.sdk.webassembly.pack\10.0.14</PkgMicrosoft_NET_Sdk_WebAssembly_Pack>
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\louis\.nuget\packages\microsoft.net.illink.tasks\10.0.14</PkgMicrosoft_NET_ILLink_Tasks>
   </PropertyGroup>
 </Project>

@@ -8,5 +8,5 @@
 -DGEN_PINVOKE=1
 -emit-llvm
 "-IC:\Users\louis\Documents\GitHub\cuttheropedx-goingup\src\CutTheRopeDX.Browser\obj\Debug\net10.0-browser\wasm\for-build"
-"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.11\runtimes\browser-wasm\native\include\mono-2.0"
-"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.11\runtimes\browser-wasm\native\include\wasm"
+"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.14\runtimes\browser-wasm\native\include\mono-2.0"
+"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.14\runtimes\browser-wasm\native\include\wasm"

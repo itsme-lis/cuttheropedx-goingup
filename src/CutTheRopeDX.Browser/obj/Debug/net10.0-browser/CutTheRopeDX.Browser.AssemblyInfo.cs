@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CutTheRopeDX.Browser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b2d7a122b105068ed9e4eddad7d13300a90d2c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af349ed78a3ff4ab90d9682b1c39018ddde39b55")]
 [assembly: System.Reflection.AssemblyProductAttribute("CutTheRopeDX.Browser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CutTheRopeDX.Browser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
