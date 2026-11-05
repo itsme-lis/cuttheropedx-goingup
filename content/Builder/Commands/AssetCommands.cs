@@ -12,7 +12,7 @@ namespace CutTheRopeDX.Content.Commands
     public static class AssetCommands
     {
         private const string AssetsUrl =
-            "https://github.com/itsme-lis/ctrdxgup-assets/releases/download/Asset/ctrdxgup-assets-vk.zip";
+            "https://github.com/yell0wsuit/ctrdx-assets/releases/download/v2.0/ctrdx-assets-vk.zip";
         private const string ManifestName = "file_manifest.json";
 
         /// <summary>
