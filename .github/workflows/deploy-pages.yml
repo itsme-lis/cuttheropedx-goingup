@@ -61,6 +61,18 @@ jobs:
                   # publishing an assetless game would only hide it.
                   fail-on-cache-miss: true
 
+            # The stock assets above are verified against file_manifest.json, so the mod's own
+            # backgrounds, icons and music live in custom-assets/ (see
+            # scripts/collect_custom_assets.py) and are laid over them here, after the cache
+            # restore, so the cached stock tree is never altered.
+            - name: Apply custom assets
+              run: |
+                  if [ -d custom-assets ]; then
+                      cp -rv custom-assets/. content/
+                  else
+                      echo "No custom-assets/ folder; using the stock assets."
+                  fi
+
             # build_web_content.py converts with the NuGet-pinned ffmpeg and refuses the one on
             # PATH, since distro builds routinely lack libvorbis and libwebp. Restoring the
             # content builder is what puts that package in the NuGet cache.
