@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <map>
   <layer name="settings">
-    <map gridSize="32" width="640" height="960" levelName="Dis candy, goin' up!" levelCreator="by Milkas" />
+    <map gridSize="32" width="853" height="960" levelName="Dis candy, goin' up!" levelCreator="by Milkas" />
     <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="8" candySkin="43" />
   </layer>
   <layer name="Objects">
-    <spike2 x="419" y="455" angle="17" size="2" />
-    <sock x="451" y="188" group="0" angle="180" />
-    <pump x="111" y="394" angle="-135" />
-    <spike2 x="183" y="391" angle="164" size="2" />
-    <spike2 x="103" y="169" angle="-152" size="2" />
-    <spike2 x="180" y="176" angle="166" size="2" />
-    <spike2 x="298" y="380" angle="180" size="2" />
-    <grab x="439" y="187" length="50" wheel="false" gun="false" radius="22" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
-    <bubble x="275" y="834" />
-    <bouncer1 x="-60" y="526" angle="0" size="1" />
-    <bubble x="439" y="204" />
-    <pump x="-143" y="787" angle="-90" />
-    <pump x="-94" y="626" angle="-113" />
-    <sock x="433" y="403" group="1" angle="-90" />
-    <grab x="-140" y="620" length="50" wheel="false" gun="false" radius="104" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
-    <bouncer1 x="-225" y="517" angle="39" size="1" />
-    <grab x="-141" y="467" length="50" wheel="false" gun="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
-    <pump x="-62" y="566" angle="-90" />
-    <pump x="338" y="678" angle="135" />
-    <star x="303" y="725" timeout="-1" />
-    <pump x="151" y="793" angle="-162" />
-    <pump x="-201" y="141" angle="-7" />
-    <grab x="-70" y="156" length="50" wheel="true" gun="false" radius="90" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
-    <target x="142" y="108" />
-    <sock x="-31" y="349" group="1" angle="180" />
-    <grab x="430" y="351" length="50" wheel="false" gun="false" radius="26" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
-    <grab x="-63" y="436" length="50" wheel="false" gun="false" radius="27" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
-    <star x="51" y="352" timeout="-1" />
-    <spike2 x="-36" y="284" angle="-146" size="2" />
-    <pump x="237" y="148" angle="114" />
-    <pump x="484" y="239" angle="180" />
-    <spike2 x="287" y="165" angle="180" size="2" />
-    <star x="430" y="382" timeout="-1" />
-    <gravitySwitch x="55" y="119" />
-    <sock x="-69" y="323" group="0" angle="90" />
-    <pump x="-114" y="897" angle="0" />
-    <grab x="37" y="732" length="160" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
-    <candy x="159" y="861" candyNumber="0" />
+    <spike2 x="710" y="454" angle="17" size="2" />
+    <sock x="742" y="187" group="0" angle="180" />
+    <pump x="402" y="393" angle="-135" />
+    <spike2 x="474" y="390" angle="164" size="2" />
+    <spike2 x="394" y="168" angle="-152" size="2" />
+    <spike2 x="471" y="175" angle="166" size="2" />
+    <spike2 x="589" y="379" angle="180" size="2" />
+    <grab x="730" y="186" length="50" wheel="false" gun="false" radius="22" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+    <bubble x="566" y="833" />
+    <bouncer1 x="231" y="525" angle="0" size="1" />
+    <bubble x="730" y="203" />
+    <pump x="148" y="786" angle="-90" />
+    <pump x="197" y="625" angle="-113" />
+    <sock x="724" y="402" group="1" angle="-90" />
+    <grab x="151" y="619" length="50" wheel="false" gun="false" radius="104" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+    <bouncer1 x="66" y="516" angle="39" size="1" />
+    <grab x="150" y="466" length="50" wheel="false" gun="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+    <pump x="229" y="565" angle="-90" />
+    <pump x="629" y="677" angle="135" />
+    <star x="594" y="724" timeout="-1" />
+    <pump x="442" y="792" angle="-162" />
+    <pump x="90" y="140" angle="-7" />
+    <grab x="221" y="155" length="50" wheel="true" gun="false" radius="90" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+    <target x="433" y="107" />
+    <sock x="260" y="348" group="1" angle="180" />
+    <grab x="721" y="350" length="50" wheel="false" gun="false" radius="26" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+    <grab x="228" y="435" length="50" wheel="false" gun="false" radius="27" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+    <star x="342" y="351" timeout="-1" />
+    <spike2 x="255" y="283" angle="-146" size="2" />
+    <pump x="528" y="147" angle="114" />
+    <pump x="775" y="238" angle="180" />
+    <spike2 x="578" y="164" angle="180" size="2" />
+    <star x="721" y="381" timeout="-1" />
+    <gravitySwitch x="346" y="118" />
+    <sock x="222" y="322" group="0" angle="90" />
+    <pump x="177" y="896" angle="0" />
+    <grab x="328" y="731" length="160" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+    <candy x="450" y="860" candyNumber="0" />
   </layer>
 </map>
