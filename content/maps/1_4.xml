@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <map>
   <layer name="settings">
-    <map gridSize="32" width="320" height="480" levelName="Sweet-syphus Much?" levelCreator="by Agent Zero" />
+    <map gridSize="32" width="640" height="480" levelName="Sweet-syphus Much?" levelCreator="by Agent Zero" />
     <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" candySkin="46" />
   </layer>
   <layer name="Objects">
