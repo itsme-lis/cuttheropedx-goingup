@@ -5,57 +5,57 @@
     <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" themeBox="6" candySkin="2" />
   </layer>
   <layer name="Objects">
-    <tutorial04 x="245" locale="en" y="108" angle="-21" />
-    <tutorialText x="107" y="34" locale="en" text="Be careful! Spikes on the tower!" width="160" />
-    <tutorial06 x="72" locale="en" y="69" />
-    <sock x="271" y="163" group="0" angle="-45" />
-    <bouncer1 x="357" y="180" angle="19" size="1" />
-    <spike2 x="260" y="262" angle="90" size="2" />
-    <bouncer2 x="771" y="481" angle="180" size="2" />
-    <bouncer2 x="774" y="458" angle="180" size="2" />
-    <star x="526" y="28" timeout="-1" />
-    <bouncer2 x="780" y="428" angle="180" size="2" />
-    <spike4 x="708" y="32" angle="90" size="4" />
-    <spike4 x="770" y="34" angle="90" size="4" />
-    <star x="524" y="299" timeout="-1" />
-    <spike4 x="526" y="367" angle="124" size="4" toggled="1" />
-    <pump x="663" y="66" angle="180" />
-    <spike1 x="691" y="63" angle="-172" size="1" />
-    <grab x="687" y="126" length="50" wheel="false" gun="false" radius="58" moveLength="100" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
-    <spike4 x="530" y="453" angle="90" size="4" />
-    <bouncer2 x="781" y="397" angle="180" size="2" />
-    <pump x="451" y="294" angle="-16" />
-    <bouncer2 x="781" y="368" angle="180" size="2" />
-    <bouncer2 x="787" y="341" angle="180" size="2" />
-    <bouncer2 x="719" y="459" angle="90" size="2" />
-    <bouncer2 x="790" y="307" angle="180" size="2" />
-    <bouncer2 x="744" y="325" angle="141" size="2" />
-    <bouncer2 x="719" y="389" angle="90" size="2" />
-    <target x="780" y="232" />
-    <bouncer2 x="686" y="476" angle="90" size="2" />
-    <bouncer2 x="686" y="390" angle="90" size="2" />
-    <bouncer2 x="714" y="315" angle="135" size="2" />
-    <bouncer1 x="332" y="189" angle="0" size="1" />
-    <spike1 x="407" y="198" angle="155" size="1" />
-    <spike1 x="406" y="314" angle="153" size="1" />
-    <bubble x="526" y="132" />
-    <spike2 x="387" y="262" angle="90" size="2" />
-    <spike1 x="148" y="181" angle="90" size="1" />
-    <spike1 x="31" y="179" angle="90" size="1" />
-    <star x="174" y="352" timeout="3.4" />
-    <grab x="172" y="344" length="66" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
-    <candy x="177" y="399" candyNumber="0" />
-    <spike4 x="292" y="208" angle="180" size="4" />
-    <spike4 x="114" y="210" angle="180" size="4" />
-    <gravitySwitch x="212" y="260" />
-    <spike2 x="163" y="268" angle="90" size="2" />
-    <spike2 x="30" y="258" angle="90" size="2" />
-    <bouncer2 x="787" y="279" angle="-5" size="2" />
-    <sock x="288" y="434" group="0" angle="180" />
-    <pump x="89" y="433" angle="-5" />
-    <spike4 x="28" y="398" angle="90" size="4" />
-    <spike4 x="114" y="308" angle="180" size="4" />
-    <spike4 x="288" y="311" angle="180" size="4" />
-    <spike4 x="385" y="390" angle="-90" size="4" />
+    <tutorial04 x="265" locale="en" y="108" angle="-21" />
+    <tutorialText x="127" y="34" locale="en" text="Be careful! Spikes on the tower!" width="160" />
+    <tutorial06 x="92" locale="en" y="69" />
+    <sock x="291" y="163" group="0" angle="-45" />
+    <bouncer1 x="377" y="180" angle="19" size="1" />
+    <spike2 x="280" y="262" angle="90" size="2" />
+    <bouncer2 x="791" y="481" angle="180" size="2" />
+    <bouncer2 x="794" y="458" angle="180" size="2" />
+    <star x="546" y="28" timeout="-1" />
+    <bouncer2 x="800" y="428" angle="180" size="2" />
+    <spike4 x="728" y="32" angle="90" size="4" />
+    <spike4 x="790" y="34" angle="90" size="4" />
+    <star x="544" y="299" timeout="-1" />
+    <spike4 x="546" y="367" angle="124" size="4" toggled="1" />
+    <pump x="683" y="66" angle="180" />
+    <spike1 x="711" y="63" angle="-172" size="1" />
+    <grab x="707" y="126" length="50" wheel="false" gun="false" radius="58" moveLength="100" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+    <spike4 x="550" y="453" angle="90" size="4" />
+    <bouncer2 x="801" y="397" angle="180" size="2" />
+    <pump x="471" y="294" angle="-16" />
+    <bouncer2 x="801" y="368" angle="180" size="2" />
+    <bouncer2 x="807" y="341" angle="180" size="2" />
+    <bouncer2 x="739" y="459" angle="90" size="2" />
+    <bouncer2 x="810" y="307" angle="180" size="2" />
+    <bouncer2 x="764" y="325" angle="141" size="2" />
+    <bouncer2 x="739" y="389" angle="90" size="2" />
+    <target x="800" y="232" />
+    <bouncer2 x="706" y="476" angle="90" size="2" />
+    <bouncer2 x="706" y="390" angle="90" size="2" />
+    <bouncer2 x="734" y="315" angle="135" size="2" />
+    <bouncer1 x="352" y="189" angle="0" size="1" />
+    <spike1 x="427" y="198" angle="155" size="1" />
+    <spike1 x="426" y="314" angle="153" size="1" />
+    <bubble x="546" y="132" />
+    <spike2 x="407" y="262" angle="90" size="2" />
+    <spike1 x="168" y="181" angle="90" size="1" />
+    <spike1 x="51" y="179" angle="90" size="1" />
+    <star x="194" y="352" timeout="3.4" />
+    <grab x="192" y="344" length="66" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+    <candy x="197" y="399" candyNumber="0" />
+    <spike4 x="312" y="208" angle="180" size="4" />
+    <spike4 x="134" y="210" angle="180" size="4" />
+    <gravitySwitch x="232" y="260" />
+    <spike2 x="183" y="268" angle="90" size="2" />
+    <spike2 x="50" y="258" angle="90" size="2" />
+    <bouncer2 x="807" y="279" angle="-5" size="2" />
+    <sock x="308" y="434" group="0" angle="180" />
+    <pump x="109" y="433" angle="-5" />
+    <spike4 x="48" y="398" angle="90" size="4" />
+    <spike4 x="134" y="308" angle="180" size="4" />
+    <spike4 x="308" y="311" angle="180" size="4" />
+    <spike4 x="405" y="390" angle="-90" size="4" />
   </layer>
 </map>
